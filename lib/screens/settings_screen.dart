@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../theme/app_color_scheme.dart';
 import '../theme/theme_service.dart';
 
+
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
 
@@ -92,7 +93,7 @@ class _AppearanceCard extends StatelessWidget {
             children: [
               // ── Theme Color ──
               ExpansionTile(
-                initiallyExpanded: true,
+                initiallyExpanded: false,
                 tilePadding:
                     const EdgeInsets.symmetric(horizontal: 20, vertical: 4),
                 leading: Icon(Icons.palette_rounded, color: scheme.primary),
@@ -154,6 +155,45 @@ class _AppearanceCard extends StatelessWidget {
                   ),
                   const SizedBox(height: 20),
                 ],
+              ),
+
+              Divider(height: 1, color: scheme.divider),
+
+              // ── Units ──
+              ListenableBuilder(
+                listenable: ThemeService.instance,
+                builder: (context, _) {
+                  final imperial = ThemeService.instance.useImperial;
+                  return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
+                    child: Row(
+                      children: [
+                        Icon(Icons.straighten_rounded, color: scheme.primary, size: 24),
+                        const SizedBox(width: 16),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'Units',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.w700,
+                                  color: scheme.textDark,
+                                ),
+                              ),
+                              Text(
+                                imperial ? 'oz, lb, fl oz, cups' : 'g, kg, ml, L',
+                                style: TextStyle(fontSize: 12, color: scheme.textMedium),
+                              ),
+                            ],
+                          ),
+                        ),
+                        _UnitToggle(imperial: imperial, scheme: scheme),
+                      ],
+                    ),
+                  );
+                },
               ),
             ],
           ),
@@ -277,9 +317,9 @@ class _HomePreview extends StatelessWidget {
               style: TextStyle(fontSize: 6.5, color: scheme.textMedium),
             ),
             const SizedBox(height: 14),
-            _MiniButton(label: 'Ingredients', color: scheme.primary),
+            _MiniButton(label: 'Ingredients', icon: Icons.kitchen_rounded, color: scheme.primary),
             const SizedBox(height: 5),
-            _MiniButton(label: 'Mood', color: scheme.primaryLight),
+            _MiniButton(label: 'Mood', icon: Icons.mood_rounded, color: scheme.primaryLight),
             const SizedBox(height: 5),
             _MiniButton(label: '🎲  Surprise Me!', color: scheme.accent),
             const Spacer(),
@@ -298,8 +338,9 @@ class _HomePreview extends StatelessWidget {
 class _MiniButton extends StatelessWidget {
   final String label;
   final Color color;
+  final IconData? icon;
 
-  const _MiniButton({required this.label, required this.color});
+  const _MiniButton({required this.label, required this.color, this.icon});
 
   @override
   Widget build(BuildContext context) {
@@ -310,13 +351,22 @@ class _MiniButton extends StatelessWidget {
         color: color,
         borderRadius: BorderRadius.circular(9),
       ),
-      child: Text(
-        label,
-        style: const TextStyle(
-          color: Colors.white,
-          fontSize: 8,
-          fontWeight: FontWeight.w700,
-        ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          if (icon != null) ...[
+            Icon(icon, color: Colors.white, size: 9),
+            const SizedBox(width: 4),
+          ],
+          Text(
+            label,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 8,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -661,6 +711,79 @@ class _SwatchRow extends StatelessWidget {
           ),
         );
       },
+    );
+  }
+}
+
+// ── Unit toggle (Imperial / Metric) ──────────────────────────────────────────
+
+class _UnitToggle extends StatelessWidget {
+  final bool imperial;
+  final AppColorScheme scheme;
+
+  const _UnitToggle({required this.imperial, required this.scheme});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        color: scheme.divider,
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          _Segment(
+            label: 'Imperial',
+            selected: imperial,
+            scheme: scheme,
+            onTap: () => ThemeService.instance.setUseImperial(true),
+          ),
+          _Segment(
+            label: 'Metric',
+            selected: !imperial,
+            scheme: scheme,
+            onTap: () => ThemeService.instance.setUseImperial(false),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _Segment extends StatelessWidget {
+  final String label;
+  final bool selected;
+  final AppColorScheme scheme;
+  final VoidCallback onTap;
+
+  const _Segment({
+    required this.label,
+    required this.selected,
+    required this.scheme,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 180),
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+        decoration: BoxDecoration(
+          color: selected ? scheme.primary : Colors.transparent,
+          borderRadius: BorderRadius.circular(7),
+        ),
+        child: Text(
+          label,
+          style: TextStyle(
+            fontSize: 12,
+            fontWeight: FontWeight.w700,
+            color: selected ? Colors.white : scheme.textMedium,
+          ),
+        ),
+      ),
     );
   }
 }

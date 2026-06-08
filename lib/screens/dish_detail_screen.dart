@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import '../models/dish.dart';
 import '../services/favorites_service.dart';
+import '../services/measurement_service.dart';
 import '../theme/app_color_scheme.dart';
+import '../theme/theme_service.dart';
 
 class DishDetailScreen extends StatelessWidget {
   final Dish dish;
@@ -174,41 +176,50 @@ class DishDetailScreen extends StatelessWidget {
                         ),
                       ],
                     ),
-                    child: Column(
-                      children: dish.ingredientsFull.asMap().entries.map((entry) {
-                        final isLast = entry.key == dish.ingredientsFull.length - 1;
+                    child: ListenableBuilder(
+                      listenable: ThemeService.instance,
+                      builder: (context, _) {
+                        final useImperial = ThemeService.instance.useImperial;
                         return Column(
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                              child: Row(
-                                children: [
-                                  Container(
-                                    width: 8,
-                                    height: 8,
-                                    decoration: BoxDecoration(
-                                      color: scheme.primary,
-                                      shape: BoxShape.circle,
-                                    ),
-                                  ),
-                                  const SizedBox(width: 12),
-                                  Expanded(
-                                    child: Text(
-                                      entry.value,
-                                      style: TextStyle(
-                                        fontSize: 14,
-                                        color: scheme.textDark,
+                          children: dish.ingredientsFull.asMap().entries.map((entry) {
+                            final isLast = entry.key == dish.ingredientsFull.length - 1;
+                            final text = useImperial
+                                ? MeasurementConverter.toImperial(entry.value)
+                                : entry.value;
+                            return Column(
+                              children: [
+                                Padding(
+                                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                                  child: Row(
+                                    children: [
+                                      Container(
+                                        width: 8,
+                                        height: 8,
+                                        decoration: BoxDecoration(
+                                          color: scheme.primary,
+                                          shape: BoxShape.circle,
+                                        ),
                                       ),
-                                    ),
+                                      const SizedBox(width: 12),
+                                      Expanded(
+                                        child: Text(
+                                          text,
+                                          style: TextStyle(
+                                            fontSize: 14,
+                                            color: scheme.textDark,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
                                   ),
-                                ],
-                              ),
-                            ),
-                            if (!isLast)
-                              Divider(height: 1, indent: 36, color: scheme.divider),
-                          ],
+                                ),
+                                if (!isLast)
+                                  Divider(height: 1, indent: 36, color: scheme.divider),
+                              ],
+                            );
+                          }).toList(),
                         );
-                      }).toList(),
+                      },
                     ),
                   ),
 

@@ -12,6 +12,9 @@ class ThemeService extends ChangeNotifier {
   double _textScale = 1.0;
   double get textScale => _textScale;
 
+  bool _useImperial = true;
+  bool get useImperial => _useImperial;
+
   Future<void> load() async {
     try {
       final prefs = await SharedPreferences.getInstance();
@@ -21,6 +24,7 @@ class ThemeService extends ChangeNotifier {
         if (match != null) _scheme = match;
       }
       _textScale = (prefs.getDouble('text_scale') ?? 1.0).clamp(0.9, 1.1);
+      _useImperial = prefs.getBool('use_imperial') ?? true;
       notifyListeners();
     } catch (_) {}
   }
@@ -42,6 +46,16 @@ class ThemeService extends ChangeNotifier {
     try {
       final prefs = await SharedPreferences.getInstance();
       await prefs.setDouble('text_scale', scale);
+    } catch (_) {}
+  }
+
+  Future<void> setUseImperial(bool value) async {
+    if (_useImperial == value) return;
+    _useImperial = value;
+    notifyListeners();
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setBool('use_imperial', value);
     } catch (_) {}
   }
 }
