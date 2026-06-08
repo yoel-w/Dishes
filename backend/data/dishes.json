@@ -1,0 +1,2756 @@
+[
+  {
+    "id": "001",
+    "name": "Spaghetti Carbonara",
+    "cuisine": "Italian",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "region": "europe",
+    "emoji": "🍝",
+    "description": "Creamy Roman pasta made with eggs, pecorino cheese, guanciale, and black pepper.",
+    "ingredients": [
+      "spaghetti",
+      "eggs",
+      "pecorino cheese",
+      "guanciale",
+      "black pepper",
+      "pasta"
+    ],
+    "ingredientsFull": [
+      "200g spaghetti",
+      "3 large eggs",
+      "100g pecorino romano, grated",
+      "150g guanciale or pancetta",
+      "Freshly cracked black pepper",
+      "Salt for pasta water"
+    ],
+    "tags": [
+      "comfort",
+      "creamy",
+      "quick",
+      "indulgent"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "25 mins",
+    "difficulty": "medium",
+    "servings": "Serves 2",
+    "instructions": [
+      "Bring a large pot of water to a rolling boil. Add a generous handful of salt — it should taste like the sea.",
+      "Cut guanciale into thick matchsticks or cubes. Place in a cold pan, then turn to medium heat. Render slowly until the fat is translucent and the edges are crispy, about 8 minutes. Remove from heat and set aside with all the fat in the pan.",
+      "In a bowl, whisk together the whole eggs, egg yolks, and grated pecorino until combined. Season heavily with freshly cracked black pepper.",
+      "Cook spaghetti in the boiling salted water, stirring occasionally, until 1 minute before al dente.",
+      "Before draining, scoop out at least 1 cup of starchy pasta water and set aside.",
+      "Drain the spaghetti and immediately transfer to the guanciale pan off the heat. Toss well so the pasta absorbs the fat.",
+      "Wait 30 seconds for the pan to cool slightly, then pour the egg and cheese mixture over the pasta. Toss quickly and vigorously, adding splashes of pasta water a little at a time until the sauce becomes glossy and silky — not scrambled.",
+      "Taste and adjust salt. The sauce should coat every strand smoothly.",
+      "Serve immediately in warm bowls, topped with extra grated pecorino and a generous grind of black pepper."
+    ],
+    "nutrition": {
+      "calories": 620,
+      "protein": 28,
+      "carbs": 72,
+      "fat": 24,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "002",
+    "name": "Chicken Tikka Masala",
+    "cuisine": "Indian",
+    "country": "India",
+    "flag": "🇮🇳",
+    "region": "asia",
+    "emoji": "🍛",
+    "description": "Tender chicken in a rich, spiced tomato-cream sauce — one of the world's most beloved curries.",
+    "ingredients": [
+      "chicken",
+      "tomatoes",
+      "cream",
+      "garam masala",
+      "ginger",
+      "garlic",
+      "yogurt",
+      "cumin",
+      "coriander"
+    ],
+    "ingredientsFull": [
+      "700g chicken breast, cubed",
+      "200ml heavy cream",
+      "400g canned tomatoes",
+      "1 large onion, diced",
+      "4 garlic cloves, minced",
+      "2 tsp fresh ginger, grated",
+      "2 tsp garam masala",
+      "1 tsp cumin",
+      "1 tsp coriander",
+      "150ml plain yogurt",
+      "2 tbsp butter"
+    ],
+    "tags": [
+      "comfort",
+      "spicy",
+      "indulgent",
+      "hearty"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "medium",
+    "prepTime": "45 mins",
+    "difficulty": "medium",
+    "servings": "Serves 4",
+    "instructions": [
+      "In a large bowl, combine yogurt, 1 tsp garam masala, half the garlic, half the ginger, 1 tsp cumin, salt, and a squeeze of lemon juice.",
+      "Add cubed chicken and mix to coat thoroughly. Cover and marinate in the fridge for at least 1 hour, ideally overnight.",
+      "Thread chicken onto skewers or spread on a foil-lined tray. Grill or broil at high heat (220°C) for 15–18 minutes, turning once, until lightly charred in spots. Set aside.",
+      "Melt butter in a large pan over medium heat. Add diced onion and cook, stirring, for 10–12 minutes until deep golden.",
+      "Add remaining garlic and ginger. Cook for 2 minutes until fragrant.",
+      "Add remaining garam masala, coriander, and a pinch of chili powder. Stir for 1 minute to bloom the spices.",
+      "Pour in canned tomatoes, crushing them with a spoon. Stir well and simmer uncovered for 15–20 minutes until the sauce thickens and oil starts to separate.",
+      "Let the sauce cool slightly then blend until smooth. Return to the pan.",
+      "Stir in cream and bring to a gentle simmer. Add the grilled chicken pieces.",
+      "Simmer together for 8–10 minutes so the chicken soaks up the sauce. Taste and adjust salt.",
+      "Finish with a pinch of fenugreek leaves if available. Serve with basmati rice or warm naan."
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 38,
+      "carbs": 14,
+      "fat": 24,
+      "fiber": 2
+    }
+  },
+  {
+    "id": "003",
+    "name": "Pad Thai",
+    "cuisine": "Thai",
+    "country": "Thailand",
+    "flag": "🇹🇭",
+    "region": "asia",
+    "emoji": "🍜",
+    "description": "Stir-fried rice noodles with shrimp or chicken, eggs, bean sprouts, peanuts, and tamarind sauce.",
+    "ingredients": [
+      "rice noodles",
+      "shrimp",
+      "eggs",
+      "bean sprouts",
+      "peanuts",
+      "tamarind",
+      "fish sauce",
+      "lime",
+      "green onion"
+    ],
+    "ingredientsFull": [
+      "200g rice noodles",
+      "200g shrimp, peeled",
+      "2 eggs",
+      "100g bean sprouts",
+      "3 tbsp tamarind paste",
+      "2 tbsp fish sauce",
+      "1 tbsp sugar",
+      "3 tbsp vegetable oil",
+      "3 green onions, sliced",
+      "50g peanuts, crushed",
+      "1 lime, cut into wedges"
+    ],
+    "tags": [
+      "light",
+      "savory",
+      "quick",
+      "adventurous"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "seafood"
+    ],
+    "spice": "medium",
+    "prepTime": "30 mins",
+    "difficulty": "medium",
+    "servings": "Serves 2",
+    "instructions": [
+      "Soak rice noodles in room-temperature water for 20–30 minutes until pliable but not fully soft. Drain and set aside.",
+      "In a small bowl, stir together tamarind paste, fish sauce, and sugar until the sugar dissolves. Taste — it should be tangy, salty, and slightly sweet. Adjust to your preference.",
+      "Heat a wok over the highest heat possible until smoking. Add oil.",
+      "Add shrimp and stir-fry for 1–2 minutes until just pink. Push to the side of the wok.",
+      "Add the drained noodles and pour the sauce over them. Toss everything together, letting the noodles fry and absorb the sauce for 2 minutes.",
+      "If the noodles stick or seem dry, add 2–3 tablespoons of water to loosen.",
+      "Push noodles to one side. Crack eggs into the empty space and scramble lightly. Before fully set, fold the noodles back over and toss everything together.",
+      "Add bean sprouts and most of the green onion. Toss briefly — you want the sprouts to keep their crunch.",
+      "Plate and top with crushed peanuts, remaining green onion, and lime wedges. Serve with extra fish sauce, sugar, and chili flakes on the side."
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein": 28,
+      "carbs": 68,
+      "fat": 16,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "004",
+    "name": "Tacos al Pastor",
+    "cuisine": "Mexican",
+    "country": "Mexico",
+    "flag": "🇲🇽",
+    "region": "northamerica",
+    "emoji": "🌮",
+    "description": "Marinated pork cooked on a spit, served on corn tortillas with pineapple, cilantro, and onion.",
+    "ingredients": [
+      "pork",
+      "corn tortillas",
+      "pineapple",
+      "cilantro",
+      "onion",
+      "chili peppers",
+      "achiote",
+      "lime"
+    ],
+    "ingredientsFull": [
+      "600g pork shoulder, thinly sliced",
+      "8 small corn tortillas",
+      "1/2 pineapple, sliced",
+      "1 white onion, diced",
+      "Handful of cilantro",
+      "3 dried guajillo chiles",
+      "2 chipotle chiles in adobo",
+      "3 garlic cloves",
+      "1 tsp achiote paste",
+      "2 tbsp apple cider vinegar"
+    ],
+    "tags": [
+      "adventurous",
+      "savory",
+      "comfort",
+      "street food"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "medium",
+    "prepTime": "60 mins",
+    "difficulty": "hard",
+    "servings": "Serves 4",
+    "instructions": [
+      "Toast dried guajillo chiles in a dry pan for 30 seconds per side until fragrant. Remove stems and seeds.",
+      "Soak toasted chiles in hot water for 10 minutes until softened. Drain.",
+      "Blend soaked chiles with chipotle peppers, garlic, achiote paste, vinegar, 1 tsp cumin, and a pinch of salt until completely smooth.",
+      "Slice pork shoulder as thinly as possible (partially freezing helps). Coat every slice in the marinade. Refrigerate for at least 2 hours, ideally overnight.",
+      "Heat a cast iron pan or grill to very high heat. Cook pork slices in batches without crowding, pressing them flat, until caramelized and slightly charred on the edges, about 2–3 minutes per side.",
+      "Transfer cooked pork to a cutting board and chop roughly into small pieces.",
+      "Grill pineapple slices in the same pan until lightly charred on each side. Chop into small chunks.",
+      "Warm tortillas directly on a gas flame for 20 seconds per side, or in a dry pan, until lightly blistered.",
+      "Build each taco with a double layer of tortillas for structure. Add pork first.",
+      "Top with grilled pineapple, diced white onion, and a generous handful of cilantro.",
+      "Squeeze fresh lime over everything and serve with extra salsa verde if desired."
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 26,
+      "carbs": 32,
+      "fat": 16,
+      "fiber": 4
+    }
+  },
+  {
+    "id": "005",
+    "name": "Sushi (Nigiri)",
+    "cuisine": "Japanese",
+    "country": "Japan",
+    "flag": "🇯🇵",
+    "region": "asia",
+    "emoji": "🍣",
+    "description": "Hand-pressed vinegared rice topped with fresh fish or seafood — a Japanese art form.",
+    "ingredients": [
+      "sushi rice",
+      "tuna",
+      "salmon",
+      "rice vinegar",
+      "nori",
+      "wasabi",
+      "soy sauce"
+    ],
+    "ingredientsFull": [
+      "300g sushi-grade rice",
+      "4 tbsp rice vinegar",
+      "2 tbsp sugar",
+      "1 tsp salt",
+      "200g sushi-grade tuna or salmon",
+      "Wasabi paste",
+      "Soy sauce for dipping",
+      "Pickled ginger to serve"
+    ],
+    "tags": [
+      "light",
+      "elegant",
+      "adventurous",
+      "fresh"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "seafood"
+    ],
+    "spice": "mild",
+    "prepTime": "90 mins",
+    "difficulty": "hard",
+    "servings": "Serves 2",
+    "instructions": [
+      "Rinse sushi rice under cold water until the water runs clear, about 3–4 rinses. Drain for 30 minutes.",
+      "Cook rice with slightly less water than usual (1:1.1 ratio). Bring to a boil, cover, reduce heat, and cook for 12 minutes. Remove from heat and steam, still covered, for 10 more minutes.",
+      "In a small saucepan, warm rice vinegar with sugar and salt just until dissolved. Do not boil.",
+      "Transfer rice to a wide wooden or glass bowl. Drizzle seasoning over the rice and gently fold it in using a slicing motion — do not stir or mash the grains. Fan the rice as you fold to cool it quickly.",
+      "Cover with a damp cloth and keep at room temperature. Never refrigerate sushi rice.",
+      "Keep your fish very cold. Using a sharp knife, slice the fish diagonally against the grain into pieces about 7–8cm long, 3cm wide, and 5mm thick.",
+      "Prepare a bowl of water with a small splash of rice vinegar to wet your hands and prevent sticking.",
+      "Wet your hands. Scoop about 2 tablespoons of rice and gently squeeze into a compact oval, applying even pressure from all sides.",
+      "Dab a tiny amount of wasabi in the center of the fish slice. Lay the rice oval on top of the fish, press gently with your thumb to adhere, then flip so fish is on top.",
+      "Reshape the nigiri by cupping it between your fingers and thumb, pressing firmly but gently into its final shape.",
+      "Serve immediately with soy sauce, pickled ginger on the side, and extra wasabi."
+    ],
+    "nutrition": {
+      "calories": 340,
+      "protein": 22,
+      "carbs": 52,
+      "fat": 4,
+      "fiber": 1
+    }
+  },
+  {
+    "id": "006",
+    "name": "Paella Valenciana",
+    "cuisine": "Spanish",
+    "country": "Spain",
+    "flag": "🇪🇸",
+    "region": "europe",
+    "emoji": "🥘",
+    "description": "Saffron-infused rice with chicken, rabbit, green beans, and tomatoes from Valencia, Spain.",
+    "ingredients": [
+      "rice",
+      "chicken",
+      "rabbit",
+      "saffron",
+      "tomatoes",
+      "green beans",
+      "olive oil",
+      "paprika"
+    ],
+    "ingredientsFull": [
+      "400g Spanish short-grain rice",
+      "400g chicken thighs, bone-in",
+      "250g rabbit, cut into pieces",
+      "200g green beans, trimmed",
+      "400g canned tomatoes, crushed",
+      "1 pinch saffron threads",
+      "1 tsp smoked paprika",
+      "4 tbsp olive oil",
+      "1.2L chicken stock"
+    ],
+    "tags": [
+      "hearty",
+      "comfort",
+      "adventurous",
+      "indulgent"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "60 mins",
+    "difficulty": "hard",
+    "servings": "Serves 4",
+    "instructions": [
+      "Warm your chicken stock in a separate pot and steep saffron threads in a ladleful of it for 10 minutes.",
+      "Heat olive oil in a large paella pan (40–45cm) over medium-high heat until shimmering.",
+      "Season the chicken and rabbit generously. Sear in the pan, skin-side down first, turning to brown all sides — about 8 minutes total. Push to the edges of the pan.",
+      "Add the green beans to the center. Cook for 3 minutes, stirring, until bright green.",
+      "Add crushed tomatoes and smoked paprika to the center. Cook, stirring, for 5 minutes until the tomato darkens and thickens into a sofrito.",
+      "Mix the sofrito into the meat. Pour in all the saffron-infused stock and remaining warm stock. Season generously with salt.",
+      "Bring to a vigorous boil. Taste the broth — it should be well-seasoned.",
+      "Sprinkle the rice evenly across the pan. Do not stir once the rice is in. Distribute the meat and beans evenly.",
+      "Cook on high heat for 8–10 minutes, rotating the pan if needed for even heat.",
+      "Reduce to medium-low and cook for another 8–10 minutes until the rice has absorbed all the liquid.",
+      "In the final 2 minutes, increase the heat briefly to create the socarrat — a crispy caramelized rice crust on the bottom. Listen for a faint crackle.",
+      "Remove from heat, cover loosely with foil, and rest for 5 minutes before serving directly from the pan."
+    ],
+    "nutrition": {
+      "calories": 560,
+      "protein": 34,
+      "carbs": 64,
+      "fat": 18,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "007",
+    "name": "Bibimbap",
+    "cuisine": "Korean",
+    "country": "South Korea",
+    "flag": "🇰🇷",
+    "region": "asia",
+    "emoji": "🍚",
+    "description": "A colorful bowl of rice topped with seasoned vegetables, beef, a fried egg, and spicy gochujang sauce.",
+    "ingredients": [
+      "rice",
+      "beef",
+      "spinach",
+      "carrots",
+      "mushrooms",
+      "egg",
+      "gochujang",
+      "sesame oil",
+      "zucchini",
+      "bean sprouts"
+    ],
+    "ingredientsFull": [
+      "300g cooked short-grain rice",
+      "150g beef mince",
+      "100g spinach",
+      "1 large carrot, julienned",
+      "100g shiitake mushrooms, sliced",
+      "1 zucchini, julienned",
+      "2 eggs",
+      "2 tbsp gochujang",
+      "3 tbsp sesame oil",
+      "2 tbsp soy sauce",
+      "2 garlic cloves, minced"
+    ],
+    "tags": [
+      "healthy",
+      "comfort",
+      "adventurous",
+      "colorful"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "medium",
+    "prepTime": "40 mins",
+    "difficulty": "medium",
+    "servings": "Serves 2",
+    "instructions": [
+      "Cook short-grain rice and keep warm. Prepare all vegetables before cooking.",
+      "Season beef mince with 1 tbsp soy sauce, 1 tsp sesame oil, 1 minced garlic clove, and a pinch of sugar. Mix well.",
+      "Stir-fry beef in a hot pan for 3–4 minutes until cooked through, breaking it up as it cooks. Set aside.",
+      "Blanch spinach in boiling water for 30 seconds. Drain, squeeze out all excess water, and season with sesame oil, soy sauce, and garlic.",
+      "In the same pan with a little sesame oil, stir-fry carrots for 2 minutes until just tender. Season with salt. Set aside.",
+      "Stir-fry zucchini for 2 minutes. Season with salt and sesame oil. Set aside.",
+      "Stir-fry mushrooms for 3 minutes until all moisture evaporates. Season with soy sauce and sesame oil. Set aside.",
+      "Make gochujang sauce: mix 2 tbsp gochujang with 1 tsp sesame oil, 1 tsp sugar, and 1 tsp water.",
+      "Fry eggs sunny-side up in a lightly oiled pan until whites are just set but yolk is still runny.",
+      "Divide warm rice between two bowls. Arrange each vegetable and the beef in separate sections around the rice, keeping colors distinct.",
+      "Place a fried egg in the center of each bowl. Add a spoonful of gochujang sauce.",
+      "Drizzle with sesame oil and serve. Mix everything together thoroughly at the table before eating."
+    ],
+    "nutrition": {
+      "calories": 580,
+      "protein": 30,
+      "carbs": 72,
+      "fat": 18,
+      "fiber": 6
+    }
+  },
+  {
+    "id": "008",
+    "name": "Pho Bo",
+    "cuisine": "Vietnamese",
+    "country": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "asia",
+    "emoji": "🍲",
+    "description": "Slow-simmered beef bone broth with rice noodles, thinly sliced beef, herbs, and lime.",
+    "ingredients": [
+      "beef bones",
+      "rice noodles",
+      "beef",
+      "star anise",
+      "ginger",
+      "cinnamon",
+      "fish sauce",
+      "bean sprouts",
+      "basil",
+      "lime"
+    ],
+    "ingredientsFull": [
+      "1kg beef bones",
+      "400g rice noodles",
+      "300g beef sirloin, thinly sliced",
+      "3 star anise",
+      "1 cinnamon stick",
+      "4cm ginger, charred",
+      "1 large onion, charred",
+      "3 tbsp fish sauce",
+      "100g bean sprouts",
+      "Fresh basil and mint",
+      "2 limes, cut into wedges"
+    ],
+    "tags": [
+      "comfort",
+      "light",
+      "warm",
+      "hearty"
+    ],
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "120 mins",
+    "difficulty": "hard",
+    "servings": "Serves 4",
+    "instructions": [
+      "Blanch beef bones in boiling water for 10 minutes. Drain, rinse bones under cold water, and clean the pot. This removes impurities for a clearer broth.",
+      "Char ginger and halved onion directly over an open gas flame or under a broiler, turning, until blackened and fragrant on all sides, about 5 minutes.",
+      "Return cleaned bones to the pot, cover with 3 liters of fresh cold water, and bring to a boil.",
+      "Skim any foam that rises to the surface, then reduce to a very gentle simmer.",
+      "Toast star anise, cinnamon stick, and cloves in a dry pan for 1 minute. Add to the broth along with charred ginger and onion.",
+      "Simmer the broth uncovered for at least 3 hours, ideally 5–6. The broth should be clear and deeply aromatic.",
+      "Strain the broth through a fine sieve. Discard solids. Season with fish sauce, salt, and a small amount of rock sugar to balance. Keep at a rolling simmer.",
+      "Soak rice noodles in cold water for 20 minutes. Drain, then blanch in boiling water for 1–2 minutes until just tender. Divide among bowls.",
+      "Slice raw beef sirloin paper-thin against the grain. Arrange on top of the noodles.",
+      "Ladle boiling hot broth directly over the raw beef — the heat will cook the slices instantly.",
+      "Serve immediately with a plate of bean sprouts, Thai basil, mint, lime wedges, hoisin sauce, and chili sauce on the side."
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 32,
+      "carbs": 46,
+      "fat": 8,
+      "fiber": 2
+    }
+  },
+  {
+    "id": "009",
+    "name": "Moussaka",
+    "cuisine": "Greek",
+    "country": "Greece",
+    "flag": "🇬🇷",
+    "region": "europe",
+    "emoji": "🫕",
+    "description": "Baked layers of eggplant, spiced ground lamb, and béchamel sauce — Greek comfort at its finest.",
+    "ingredients": [
+      "eggplant",
+      "ground lamb",
+      "tomatoes",
+      "onion",
+      "garlic",
+      "cinnamon",
+      "butter",
+      "flour",
+      "milk",
+      "eggs"
+    ],
+    "ingredientsFull": [
+      "2 large eggplants, sliced",
+      "600g ground lamb",
+      "400g canned tomatoes",
+      "1 large onion, diced",
+      "3 garlic cloves",
+      "1 tsp cinnamon",
+      "500ml whole milk",
+      "60g butter",
+      "60g flour",
+      "2 eggs",
+      "100g parmesan, grated",
+      "Olive oil, salt, pepper"
+    ],
+    "tags": [
+      "comfort",
+      "hearty",
+      "indulgent",
+      "warm"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "90 mins",
+    "difficulty": "hard",
+    "servings": "Serves 6",
+    "instructions": [
+      "Slice eggplants into 1cm rounds. Salt generously and leave in a colander for 30 minutes to draw out bitterness. Pat completely dry.",
+      "Brush eggplant slices with olive oil on both sides. Arrange on baking sheets and roast at 200°C for 20–25 minutes, flipping halfway, until golden and tender.",
+      "Heat oil in a large pan. Cook diced onion for 8 minutes until soft. Add garlic and cook 1 more minute.",
+      "Add ground lamb and cook, breaking it up, until no pink remains and any liquid has evaporated, about 10 minutes.",
+      "Add cinnamon, allspice, and a pinch of nutmeg. Stir in canned tomatoes and 1 tbsp tomato paste. Season with salt and pepper.",
+      "Simmer the meat sauce uncovered for 20 minutes until thick and reduced. Remove from heat and let cool slightly.",
+      "Make béchamel: melt butter in a saucepan over medium heat. Whisk in flour and cook for 2 minutes until it smells nutty.",
+      "Gradually add warm milk, whisking constantly to prevent lumps. Cook until thick enough to coat a spoon, about 5–7 minutes. Season with salt, pepper, and nutmeg.",
+      "Remove béchamel from heat. Beat eggs in a bowl, then slowly whisk a ladle of hot béchamel into the eggs to temper them. Pour the egg mixture back into the béchamel and stir. Fold in half the grated cheese.",
+      "Layer half the eggplant slices in a greased baking dish. Spread all the meat sauce on top. Add remaining eggplant.",
+      "Pour béchamel over the top and spread evenly. Sprinkle with remaining cheese.",
+      "Bake at 180°C for 45–50 minutes until deep golden and set. Rest for at least 20 minutes before cutting and serving."
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 28,
+      "carbs": 22,
+      "fat": 32,
+      "fiber": 4
+    }
+  },
+  {
+    "id": "010",
+    "name": "Jerk Chicken",
+    "cuisine": "Jamaican",
+    "country": "Jamaica",
+    "flag": "🇯🇲",
+    "region": "caribbean",
+    "emoji": "🍗",
+    "description": "Chicken marinated in a fiery blend of scotch bonnet peppers, allspice, and thyme, then grilled or smoked.",
+    "ingredients": [
+      "chicken",
+      "scotch bonnet peppers",
+      "allspice",
+      "thyme",
+      "garlic",
+      "ginger",
+      "soy sauce",
+      "lime",
+      "brown sugar"
+    ],
+    "ingredientsFull": [
+      "1.2kg chicken pieces, bone-in",
+      "3 scotch bonnet peppers",
+      "6 green onions",
+      "4 garlic cloves",
+      "2 tsp ground allspice",
+      "1 tsp dried thyme",
+      "2 tbsp soy sauce",
+      "2 tbsp brown sugar",
+      "1 tbsp ginger, grated",
+      "2 tbsp lime juice",
+      "2 tbsp vegetable oil"
+    ],
+    "tags": [
+      "spicy",
+      "adventurous",
+      "smoky",
+      "indulgent"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "hot",
+    "prepTime": "90 mins",
+    "difficulty": "medium",
+    "servings": "Serves 4",
+    "instructions": [
+      "Blend scotch bonnet peppers, green onions, garlic, ginger, allspice, thyme, soy sauce, brown sugar, lime juice, and oil into a smooth paste. Wear gloves when handling scotch bonnets.",
+      "Score the chicken pieces deeply with a knife, cutting to the bone. This allows the marinade to penetrate fully.",
+      "Rub the marinade all over the chicken and into every cut. Cover and refrigerate for at least 4 hours — overnight gives the best result.",
+      "Remove chicken from the fridge 30 minutes before cooking to take the chill off.",
+      "Preheat grill to medium heat. Add wood chips soaked in water for smoke if available.",
+      "Grill chicken over indirect heat, covered, for 30 minutes. Turn pieces every 10 minutes.",
+      "Move to direct heat for the final 10 minutes to char the skin, watching carefully to avoid burning.",
+      "Check doneness by piercing the thickest part — juices should run clear, or internal temperature should read 74°C.",
+      "Rest chicken for 5 minutes. Serve with rice and peas, festival dumplings, and a squeeze of lime."
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 36,
+      "carbs": 12,
+      "fat": 22,
+      "fiber": 1
+    }
+  },
+  {
+    "id": "011",
+    "name": "Falafel Wrap",
+    "cuisine": "Lebanese",
+    "country": "Lebanon",
+    "flag": "🇱🇧",
+    "region": "middleeast",
+    "emoji": "🧆",
+    "description": "Crispy chickpea fritters wrapped in pita with tahini, tomatoes, cucumbers, and fresh herbs.",
+    "ingredients": [
+      "chickpeas",
+      "pita bread",
+      "tahini",
+      "tomatoes",
+      "cucumbers",
+      "parsley",
+      "garlic",
+      "cumin",
+      "lemon"
+    ],
+    "ingredientsFull": [
+      "400g canned chickpeas, drained",
+      "2 pita breads",
+      "3 tbsp tahini",
+      "1 lemon, juiced",
+      "2 garlic cloves",
+      "1 tsp cumin",
+      "Handful of fresh parsley",
+      "1 tomato, diced",
+      "1/2 cucumber, sliced",
+      "Oil for frying"
+    ],
+    "tags": [
+      "light",
+      "healthy",
+      "street food",
+      "quick"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "vegan",
+      "vegetarian"
+    ],
+    "spice": "mild",
+    "prepTime": "30 mins",
+    "difficulty": "medium",
+    "servings": "Serves 2",
+    "instructions": [
+      "Drain and rinse chickpeas. Pat dry with a paper towel — excess moisture causes falafel to fall apart.",
+      "In a food processor, pulse chickpeas, garlic, parsley, cumin, coriander, salt, and a pinch of cayenne. Pulse in short bursts until you get a coarse, slightly grainy mixture — not a paste.",
+      "Transfer to a bowl, taste, and adjust seasoning. If the mixture feels too wet, add 1–2 tbsp flour. Refrigerate for 30 minutes to firm up.",
+      "Shape into small balls or patties, about 4cm wide. Handle gently.",
+      "Heat 3–4cm of oil in a heavy pan to 175°C. Test with a small piece of the mixture — it should sizzle and rise quickly.",
+      "Fry falafel in batches for 3–4 minutes per side until deep mahogany brown. Don't rush — if the oil is too hot, they'll burn outside and be raw inside.",
+      "Drain on paper towels and sprinkle with salt immediately.",
+      "Make tahini sauce: whisk tahini, lemon juice, one minced garlic clove, and water together until smooth and pourable. Season with salt.",
+      "Warm pita breads in a dry pan or under a grill until pliable.",
+      "Spread tahini sauce generously inside each pita. Fill with 3–4 falafel, diced tomato, cucumber, and pickled vegetables. Drizzle with more tahini and serve immediately."
+    ],
+    "nutrition": {
+      "calories": 440,
+      "protein": 18,
+      "carbs": 56,
+      "fat": 18,
+      "fiber": 10
+    }
+  },
+  {
+    "id": "012",
+    "name": "Beef Ramen",
+    "cuisine": "Japanese",
+    "country": "Japan",
+    "flag": "🇯🇵",
+    "region": "asia",
+    "emoji": "🍜",
+    "description": "Rich tonkotsu or shoyu broth loaded with wheat noodles, chashu pork, soft-boiled egg, and nori.",
+    "ingredients": [
+      "ramen noodles",
+      "pork belly",
+      "soy sauce",
+      "miso",
+      "eggs",
+      "nori",
+      "bamboo shoots",
+      "green onion",
+      "sesame"
+    ],
+    "ingredientsFull": [
+      "200g ramen noodles",
+      "400g pork belly",
+      "1L chicken stock",
+      "3 tbsp soy sauce",
+      "2 tbsp miso paste",
+      "2 eggs",
+      "2 sheets nori",
+      "100g bamboo shoots",
+      "3 green onions, sliced",
+      "1 tbsp sesame oil",
+      "4 garlic cloves",
+      "2cm ginger"
+    ],
+    "tags": [
+      "comfort",
+      "hearty",
+      "warm",
+      "indulgent"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "180 mins",
+    "difficulty": "hard",
+    "servings": "Serves 2",
+    "instructions": [
+      "Make chashu pork: roll pork belly tightly and tie with kitchen twine at 2cm intervals.",
+      "In a pot, combine 3 tbsp soy sauce, 2 tbsp mirin, 1 tbsp sake, and 1 cup water. Add pork belly, ginger slices, and 2 garlic cloves. Bring to a simmer, cover, and braise on low heat for 2 hours until tender.",
+      "Remove pork and let cool, then refrigerate. Reserve the braising liquid — this is your tare (seasoning sauce).",
+      "Make marinated eggs: bring a small pot of water to a boil. Gently lower eggs and cook exactly 7 minutes for jammy centers. Transfer immediately to ice water.",
+      "Peel eggs and marinate in a mixture of 3 tbsp soy sauce, 1 tbsp mirin, and enough water to submerge for at least 1 hour.",
+      "Make the broth: in a pot, sauté sliced garlic and ginger in sesame oil for 1 minute. Add chicken stock and bring to a boil. Reduce to a simmer and cook for 20 minutes.",
+      "In each serving bowl, whisk together 2 tbsp miso paste and 2 tbsp of the reserved braising liquid (tare). This is your flavor base.",
+      "Cook ramen noodles according to package directions. Drain and divide between bowls.",
+      "Ladle boiling hot broth over the noodles and miso base. Stir briefly to combine.",
+      "Slice the chilled chashu pork into 1cm rounds. Sear slices briefly in a hot pan until caramelized on one side.",
+      "Top each bowl with 2–3 chashu slices, a halved marinated egg, bamboo shoots, nori sheets, sliced green onions, and a drizzle of sesame oil."
+    ],
+    "nutrition": {
+      "calories": 680,
+      "protein": 36,
+      "carbs": 72,
+      "fat": 26,
+      "fiber": 4
+    }
+  },
+  {
+    "id": "013",
+    "name": "Chicken Shawarma",
+    "cuisine": "Middle Eastern",
+    "country": "Lebanon",
+    "flag": "🇱🇧",
+    "region": "middleeast",
+    "emoji": "🌯",
+    "description": "Spiced chicken shaved off a rotating spit, wrapped in flatbread with garlic sauce and pickled vegetables.",
+    "ingredients": [
+      "chicken",
+      "flatbread",
+      "garlic",
+      "tahini",
+      "tomatoes",
+      "pickles",
+      "cumin",
+      "turmeric",
+      "paprika",
+      "lemon"
+    ],
+    "ingredientsFull": [
+      "700g chicken thighs",
+      "4 flatbreads",
+      "4 garlic cloves, minced",
+      "3 tbsp tahini",
+      "1 lemon, juiced",
+      "1 tsp cumin",
+      "1 tsp turmeric",
+      "1 tsp paprika",
+      "2 tomatoes, sliced",
+      "Pickled cucumbers",
+      "2 tbsp olive oil"
+    ],
+    "tags": [
+      "street food",
+      "savory",
+      "quick",
+      "comfort"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "medium",
+    "prepTime": "50 mins",
+    "difficulty": "medium",
+    "servings": "Serves 4",
+    "instructions": [
+      "In a bowl, combine cumin, turmeric, paprika, coriander, cinnamon, salt, minced garlic, olive oil, and lemon juice. Mix into a smooth marinade.",
+      "Add chicken thighs and coat every surface. Cover and refrigerate for at least 2 hours, ideally overnight.",
+      "Make garlic sauce (toum): blend 4 garlic cloves, salt, and lemon juice. Slowly drizzle in neutral oil while blending until thick and white. Alternatively, mix tahini with lemon, garlic, and water into a smooth sauce.",
+      "Remove chicken from fridge 20 minutes before cooking. Grill on a preheated grill pan or grill over high heat for 5–6 minutes per side until charred and cooked through.",
+      "Alternatively, roast on a rack at 220°C for 25–30 minutes until golden and internal temperature reaches 74°C.",
+      "Rest chicken for 5 minutes then slice thinly against the grain, or chop roughly.",
+      "Warm flatbreads in a dry pan for 30 seconds per side, or wrap in foil and heat in the oven.",
+      "Spread garlic sauce generously down the center of each flatbread.",
+      "Add a layer of chicken, then sliced tomato, pickled cucumbers, and fresh parsley.",
+      "Roll tightly into a wrap, pressing firmly. Cut in half at an angle and serve immediately."
+    ],
+    "nutrition": {
+      "calories": 460,
+      "protein": 34,
+      "carbs": 38,
+      "fat": 18,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "014",
+    "name": "Lamb Tagine",
+    "cuisine": "Moroccan",
+    "country": "Morocco",
+    "flag": "🇲🇦",
+    "region": "africa",
+    "emoji": "🫕",
+    "description": "Slow-cooked lamb with apricots, almonds, saffron, and warm spices in a conical clay pot.",
+    "ingredients": [
+      "lamb",
+      "apricots",
+      "almonds",
+      "onion",
+      "saffron",
+      "cinnamon",
+      "ginger",
+      "honey",
+      "cilantro",
+      "olive oil"
+    ],
+    "ingredientsFull": [
+      "800g lamb shoulder, cubed",
+      "150g dried apricots",
+      "50g blanched almonds",
+      "1 large onion, sliced",
+      "3 garlic cloves, minced",
+      "1 pinch saffron",
+      "1 tsp cinnamon",
+      "1 tsp ground ginger",
+      "2 tbsp honey",
+      "400ml lamb stock",
+      "2 tbsp olive oil",
+      "Fresh cilantro to serve"
+    ],
+    "tags": [
+      "comfort",
+      "adventurous",
+      "warm",
+      "sweet-savory"
+    ],
+    "mealType": [
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "120 mins",
+    "difficulty": "hard",
+    "servings": "Serves 4",
+    "instructions": [
+      "Pat lamb cubes dry. Season generously with salt, pepper, cinnamon, ground ginger, turmeric, and cumin.",
+      "Heat olive oil in a tagine base or heavy Dutch oven over medium-high heat. Brown lamb in batches without crowding, about 3 minutes per side. Remove and set aside.",
+      "In the same pot, reduce heat and add sliced onion. Cook for 8 minutes until softened and starting to color.",
+      "Add garlic and cook for 1 minute. Add any remaining spices and stir for 30 seconds.",
+      "Return browned lamb to the pot. Add honey and stir to coat.",
+      "Steep saffron in 2 tablespoons of warm water for 5 minutes, then pour into the pot.",
+      "Pour in lamb stock — it should come about halfway up the meat. Bring to a boil.",
+      "Reduce heat to the lowest setting. Cover tightly and cook for 1 hour 15 minutes.",
+      "Add dried apricots to the pot, nestling them among the lamb pieces. Cover and cook for another 30 minutes until the lamb is very tender and falling apart.",
+      "Meanwhile, toast almonds in a dry pan over medium heat for 3–4 minutes until golden. Set aside.",
+      "Taste the sauce and adjust salt, honey, and spices. If it needs thickening, remove the lid and simmer for 10 minutes.",
+      "Serve tagine topped with toasted almonds, fresh cilantro, and sesame seeds alongside warm couscous."
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein": 38,
+      "carbs": 28,
+      "fat": 28,
+      "fiber": 4
+    }
+  },
+  {
+    "id": "015",
+    "name": "Jollof Rice",
+    "cuisine": "West African",
+    "country": "Nigeria",
+    "flag": "🇳🇬",
+    "region": "africa",
+    "emoji": "🍚",
+    "description": "One-pot tomato-based rice cooked with peppers, onions, and spices — the pride of West Africa.",
+    "ingredients": [
+      "rice",
+      "tomatoes",
+      "red bell peppers",
+      "onion",
+      "chicken stock",
+      "scotch bonnet",
+      "tomato paste",
+      "garlic"
+    ],
+    "ingredientsFull": [
+      "500g long-grain rice",
+      "400g canned tomatoes",
+      "2 red bell peppers",
+      "1 scotch bonnet pepper",
+      "2 large onions",
+      "3 garlic cloves",
+      "500ml chicken stock",
+      "3 tbsp tomato paste",
+      "2 tsp paprika",
+      "1 tsp thyme",
+      "3 tbsp vegetable oil"
+    ],
+    "tags": [
+      "comfort",
+      "hearty",
+      "adventurous",
+      "savory"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "vegan",
+      "vegetarian"
+    ],
+    "spice": "medium",
+    "prepTime": "60 mins",
+    "difficulty": "medium",
+    "servings": "Serves 6",
+    "instructions": [
+      "Blend the canned tomatoes, roasted red bell peppers, scotch bonnet, and one onion until completely smooth. Set aside.",
+      "Dice the remaining onion finely. Heat oil in a heavy-bottomed pot over medium-high heat.",
+      "Fry the diced onion for 8–10 minutes until golden and starting to caramelize.",
+      "Pour in the blended tomato and pepper mixture. Be careful — it will splatter. Stir well.",
+      "Cook the tomato base uncovered, stirring every few minutes, for 20–25 minutes until it darkens to a deep red and the raw tomato smell is completely gone. The oil will start to float on top.",
+      "Add tomato paste, paprika, thyme, garlic, and bay leaves. Stir and cook for 5 more minutes.",
+      "Pour in chicken stock and season with salt and seasoning cubes. Bring to a boil.",
+      "Rinse rice in cold water until the water runs clear. Drain and add to the pot. Stir once to combine.",
+      "Reduce heat to the lowest setting. Cover tightly with foil, then the lid on top — this creates a seal to trap steam.",
+      "Cook for 25–30 minutes without lifting the lid. Check after 25 minutes — the rice should have absorbed all liquid and be fully cooked.",
+      "For the smoky 'party rice' effect, remove the lid in the final 5 minutes and allow the bottom layer to lightly char.",
+      "Fluff gently and serve with fried plantain, chicken, or coleslaw."
+    ],
+    "nutrition": {
+      "calories": 360,
+      "protein": 8,
+      "carbs": 72,
+      "fat": 6,
+      "fiber": 4
+    }
+  },
+  {
+    "id": "016",
+    "name": "Peking Duck",
+    "cuisine": "Chinese",
+    "country": "China",
+    "flag": "🇨🇳",
+    "region": "asia",
+    "emoji": "🦆",
+    "description": "Whole duck roasted until the skin is incredibly crispy, served with pancakes, hoisin sauce, and scallions.",
+    "ingredients": [
+      "whole duck",
+      "hoisin sauce",
+      "pancakes",
+      "scallions",
+      "cucumber",
+      "five spice",
+      "maltose",
+      "soy sauce"
+    ],
+    "ingredientsFull": [
+      "1 whole duck (about 2kg)",
+      "3 tbsp hoisin sauce",
+      "1 tbsp five spice powder",
+      "2 tbsp maltose or honey",
+      "1 tbsp soy sauce",
+      "12 Chinese pancakes",
+      "6 green onions, sliced into strips",
+      "1/2 cucumber, julienned",
+      "1 tbsp Chinese rice wine"
+    ],
+    "tags": [
+      "indulgent",
+      "elegant",
+      "adventurous",
+      "special occasion"
+    ],
+    "mealType": [
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "1440 mins",
+    "difficulty": "hard",
+    "servings": "Serves 4",
+    "instructions": [
+      "Rinse the duck inside and out. Remove excess fat from the cavity.",
+      "Blanch the duck by pouring boiling water over the skin from all angles — this tightens the skin and helps it crisp later.",
+      "Pat completely dry. Rub the inside of the cavity with five spice powder, salt, and a splash of rice wine.",
+      "Combine maltose (or honey), soy sauce, and rice vinegar. Brush all over the duck skin, paying special attention to the breast.",
+      "Hang the duck or place it on a rack over a tray. Refrigerate uncovered for at least 24 hours — 48 is ideal. The skin must be completely dry before roasting.",
+      "Remove duck from the fridge 1 hour before roasting. Preheat oven to 200°C.",
+      "Place duck breast-side up on a rack in a roasting pan. Roast for 30 minutes.",
+      "Flip duck to breast-side down and roast for another 30 minutes.",
+      "Flip back to breast-side up and increase heat to 220°C. Roast for a final 20–30 minutes until the skin is deep mahogany brown and crackling.",
+      "Rest the duck for 10 minutes. Then carve the crispy skin in thin slices first (these are the prize), followed by the meat.",
+      "Warm pancakes by wrapping in a damp cloth and microwaving for 60 seconds, or steaming briefly.",
+      "Serve duck skin and meat alongside pancakes, hoisin sauce, julienned cucumber, and green onion strips. Each person wraps their own."
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein": 30,
+      "carbs": 34,
+      "fat": 28,
+      "fiber": 2
+    }
+  },
+  {
+    "id": "017",
+    "name": "Ceviche",
+    "cuisine": "Peruvian",
+    "country": "Peru",
+    "flag": "🇵🇪",
+    "region": "southamerica",
+    "emoji": "🍋",
+    "description": "Fresh raw fish cured in citrus juice with onions, cilantro, chili peppers, and corn — bright and refreshing.",
+    "ingredients": [
+      "white fish",
+      "lime juice",
+      "red onion",
+      "cilantro",
+      "chili peppers",
+      "corn",
+      "sweet potato",
+      "garlic"
+    ],
+    "ingredientsFull": [
+      "400g fresh white fish (sea bass or tilapia), diced",
+      "120ml fresh lime juice",
+      "1/2 red onion, thinly sliced",
+      "1 jalapeño or aji amarillo, minced",
+      "Handful of fresh cilantro",
+      "1 ear of corn, boiled",
+      "1 sweet potato, boiled and sliced"
+    ],
+    "tags": [
+      "fresh",
+      "light",
+      "adventurous",
+      "healthy"
+    ],
+    "mealType": [
+      "lunch"
+    ],
+    "dietary": [
+      "seafood"
+    ],
+    "spice": "medium",
+    "prepTime": "30 mins",
+    "difficulty": "easy",
+    "servings": "Serves 2",
+    "instructions": [
+      "Use the freshest fish possible — sushi-grade is ideal. Dice into uniform 1.5–2cm cubes.",
+      "Soak sliced red onion in cold salted water for 10 minutes to remove harshness. Drain and set aside.",
+      "Season fish generously with salt. Squeeze fresh lime juice over the fish — it should be nearly submerged. Toss gently.",
+      "Add minced aji amarillo or jalapeño. Stir and refrigerate for 8–12 minutes for a slightly translucent center, or 15–20 minutes for fully 'cooked' fish.",
+      "The leche de tigre (tiger's milk) — the curing liquid in the bowl — is the most prized part. Taste and adjust salt and citrus.",
+      "Add drained red onion, chopped cilantro, and a tiny minced garlic clove if desired. Toss gently.",
+      "Taste again and balance with more lime or salt as needed.",
+      "Serve immediately in chilled bowls with slices of boiled sweet potato and chunks of corn on the cob alongside. Garnish with a few cilantro leaves."
+    ],
+    "nutrition": {
+      "calories": 240,
+      "protein": 36,
+      "carbs": 18,
+      "fat": 3,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "018",
+    "name": "Margherita Pizza",
+    "cuisine": "Italian",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "region": "europe",
+    "emoji": "🍕",
+    "description": "Classic Neapolitan pizza with San Marzano tomato sauce, fresh mozzarella, and basil on a wood-fired crust.",
+    "ingredients": [
+      "pizza dough",
+      "tomatoes",
+      "mozzarella",
+      "basil",
+      "olive oil",
+      "salt"
+    ],
+    "ingredientsFull": [
+      "300g pizza dough",
+      "150ml tomato passata",
+      "200g fresh mozzarella, torn",
+      "Fresh basil leaves",
+      "2 tbsp olive oil",
+      "1 garlic clove, minced"
+    ],
+    "tags": [
+      "comfort",
+      "quick",
+      "light",
+      "classic"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "spice": "mild",
+    "prepTime": "90 mins",
+    "difficulty": "medium",
+    "servings": "Serves 2",
+    "instructions": [
+      "Place a pizza stone, baking steel, or heavy upturned baking tray in the oven. Preheat to its absolute highest setting (250–280°C) for at least 45 minutes. The stone must be scorching hot.",
+      "Make the sauce: crush canned San Marzano tomatoes by hand into a bowl. Season with salt, a drizzle of olive oil, and optionally a pinch of dried oregano. Do not cook — the sauce stays raw.",
+      "Remove dough from the fridge 1 hour before shaping to bring to room temperature.",
+      "Flour your hands and work surface. Gently press the center of the dough ball outward with your fingers, leaving a thicker border for the crust.",
+      "Pick the dough up and drape it over your knuckles, rotating and letting gravity stretch it into a circle about 30cm across. Keep the crust ring thick.",
+      "Transfer stretched dough onto a floured pizza peel or parchment paper.",
+      "Spoon 3–4 tablespoons of tomato sauce onto the dough and spread in a thin, even layer leaving the border clean.",
+      "Tear mozzarella into pieces and scatter across the sauce, leaving gaps between pieces so the sauce shows through.",
+      "Drizzle lightly with olive oil. Slide pizza onto the hot stone using the peel, or lift parchment onto the tray.",
+      "Bake for 7–10 minutes until the crust is puffed, golden, and charred in spots, and the cheese is bubbling and just starting to brown.",
+      "Remove from oven. Immediately scatter fresh basil leaves on top. Drizzle with your best olive oil and serve at once."
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 20,
+      "carbs": 64,
+      "fat": 16,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "019",
+    "name": "Butter Chicken",
+    "cuisine": "Indian",
+    "country": "India",
+    "flag": "🇮🇳",
+    "region": "asia",
+    "emoji": "🍛",
+    "description": "Tandoor-cooked chicken in a velvety butter-tomato sauce perfumed with cardamom and fenugreek.",
+    "ingredients": [
+      "chicken",
+      "butter",
+      "tomatoes",
+      "cream",
+      "cardamom",
+      "fenugreek",
+      "garam masala",
+      "ginger",
+      "garlic"
+    ],
+    "ingredientsFull": [
+      "700g chicken thighs, cubed",
+      "150ml heavy cream",
+      "400g canned tomatoes",
+      "3 tbsp butter",
+      "1 large onion, diced",
+      "4 garlic cloves",
+      "1 tbsp fresh ginger, grated",
+      "1 tsp cardamom",
+      "1 tsp fenugreek leaves",
+      "2 tsp garam masala",
+      "150ml plain yogurt"
+    ],
+    "tags": [
+      "comfort",
+      "creamy",
+      "indulgent",
+      "mild"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "50 mins",
+    "difficulty": "medium",
+    "servings": "Serves 4",
+    "instructions": [
+      "Combine yogurt, 1 tsp garam masala, half the garlic, half the ginger, 1 tsp cumin, and salt in a bowl. Add chicken and mix to coat. Marinate at least 1 hour, or overnight in the fridge.",
+      "Spread marinated chicken on a foil-lined baking tray. Grill or bake at 220°C for 20 minutes until the edges are lightly charred. Set aside.",
+      "Melt 2 tbsp butter in a heavy pot. Add onion and cook for 12 minutes, stirring, until deep golden.",
+      "Add remaining garlic and ginger. Cook 2 more minutes until fragrant.",
+      "Add the remaining garam masala, cardamom, paprika, and a pinch of chili powder. Stir for 1 minute to bloom the spices.",
+      "Add canned tomatoes, crushing with a spoon. Add 1 tsp sugar. Simmer uncovered for 20 minutes until thickened.",
+      "Remove from heat and blend the sauce until completely smooth using a stick blender or standing blender.",
+      "Return sauce to medium-low heat. Stir in cream, remaining butter, and dried fenugreek leaves (rub between palms to release aroma).",
+      "Add grilled chicken to the sauce. Simmer gently for 10 minutes — do not boil or the cream may split.",
+      "Taste and adjust salt, cream, and spice. The sauce should be velvety, rich, and gently sweet.",
+      "Serve with garlic naan, basmati rice, and a spoonful of plain yogurt on the side."
+    ],
+    "nutrition": {
+      "calories": 440,
+      "protein": 36,
+      "carbs": 12,
+      "fat": 28,
+      "fiber": 2
+    }
+  },
+  {
+    "id": "020",
+    "name": "Nasi Goreng",
+    "cuisine": "Indonesian",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "asia",
+    "emoji": "🍳",
+    "description": "Indonesian fried rice with sweet soy sauce, shrimp paste, egg, and crispy shallots.",
+    "ingredients": [
+      "rice",
+      "eggs",
+      "shrimp",
+      "kecap manis",
+      "shrimp paste",
+      "garlic",
+      "shallots",
+      "chili",
+      "cucumber"
+    ],
+    "ingredientsFull": [
+      "400g cooked rice (day-old is best)",
+      "200g shrimp, peeled",
+      "2 eggs",
+      "3 tbsp kecap manis (sweet soy sauce)",
+      "1 tsp shrimp paste",
+      "3 shallots, sliced",
+      "3 garlic cloves, minced",
+      "2 red chilies, sliced",
+      "2 tbsp vegetable oil",
+      "1/2 cucumber, sliced"
+    ],
+    "tags": [
+      "comfort",
+      "quick",
+      "savory",
+      "street food"
+    ],
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "seafood"
+    ],
+    "spice": "medium",
+    "prepTime": "20 mins",
+    "difficulty": "easy",
+    "servings": "Serves 2",
+    "instructions": [
+      "Use cold, day-old rice — fresh rice has too much moisture and will clump. Break up any clumps with your hands before cooking.",
+      "Heat oil in a wok over high heat. Add sliced shallots and fry, stirring often, until deeply golden and crispy, about 4–5 minutes. Remove and drain on paper towels. Reserve the shallot oil in the wok.",
+      "In the remaining oil, add minced garlic and sliced chili. Stir-fry for 30 seconds.",
+      "Add shrimp paste and press it into the hot oil, stirring to break it up and fry for 30 seconds until aromatic.",
+      "Add shrimp and cook until they turn pink, about 2 minutes. Push to the side.",
+      "Add cold rice to the wok. Press down and let it fry undisturbed for 1 minute, then toss vigorously.",
+      "Push rice to the side. Crack both eggs into the empty space and scramble until just barely set.",
+      "Toss eggs through the rice immediately. Add kecap manis and stir everything together over high heat for 2 minutes until the rice is evenly coated and slightly smoky.",
+      "Season with salt or extra kecap manis if needed. Plate the rice, top with crispy shallots, and serve with sliced cucumber, a fried egg on top, and prawn crackers."
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 26,
+      "carbs": 68,
+      "fat": 12,
+      "fiber": 2
+    }
+  },
+  {
+    "id": "021",
+    "name": "Coq au Vin",
+    "cuisine": "French",
+    "country": "France",
+    "flag": "🇫🇷",
+    "region": "europe",
+    "emoji": "🍷",
+    "description": "Chicken slow-braised in red wine with mushrooms, lardons, and pearl onions — the ultimate French bistro dish.",
+    "ingredients": [
+      "chicken",
+      "red wine",
+      "mushrooms",
+      "bacon",
+      "pearl onions",
+      "garlic",
+      "thyme",
+      "bay leaf",
+      "butter"
+    ],
+    "ingredientsFull": [
+      "1.2kg chicken pieces",
+      "500ml red wine",
+      "200g mushrooms, halved",
+      "150g bacon lardons",
+      "1 cup pearl onions",
+      "3 garlic cloves",
+      "2 tbsp butter",
+      "2 tbsp flour",
+      "Fresh thyme and 2 bay leaves"
+    ],
+    "tags": [
+      "comfort",
+      "indulgent",
+      "warm",
+      "elegant"
+    ],
+    "mealType": [
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "120 mins",
+    "difficulty": "hard",
+    "servings": "Serves 4",
+    "instructions": [
+      "Pat chicken pieces very dry. Season generously with salt and pepper.",
+      "Heat butter in a Dutch oven over medium-high heat. Brown chicken pieces skin-side down for 5 minutes until golden. Flip and cook another 3 minutes. Work in batches — do not crowd the pan. Remove chicken and set aside.",
+      "Add bacon lardons to the same pot. Cook until the fat renders and lardons are lightly crisped, about 4 minutes. Remove and set aside.",
+      "Peel pearl onions (score an X on the root end, blanch 1 minute, slip skins off). Add to the pot and cook 5 minutes until lightly colored. Remove and set aside.",
+      "Add sliced mushrooms to the pot. Cook over high heat without stirring until they release liquid and it evaporates, about 6 minutes. Remove and set aside.",
+      "Add garlic to the pot and cook 30 seconds. Sprinkle flour over and stir for 1 minute.",
+      "Pour in wine, scraping up all the browned bits from the bottom — this is the flavor base. Add chicken stock to just cover the chicken.",
+      "Return chicken, lardons, and onions to the pot. Add thyme sprigs and bay leaves. Bring to a boil.",
+      "Cover and reduce heat to the lowest simmer. Cook for 1 hour until chicken is very tender.",
+      "Add mushrooms in the last 20 minutes of cooking.",
+      "Remove chicken. If the sauce is too thin, boil it down for 5–10 minutes uncovered until it coats a spoon.",
+      "Return chicken to the sauce. Taste and adjust seasoning. Serve with crusty bread, egg noodles, or mashed potatoes, garnished with fresh parsley."
+    ],
+    "nutrition": {
+      "calories": 520,
+      "protein": 42,
+      "carbs": 14,
+      "fat": 28,
+      "fiber": 2
+    }
+  },
+  {
+    "id": "022",
+    "name": "Feijoada",
+    "cuisine": "Brazilian",
+    "country": "Brazil",
+    "flag": "🇧🇷",
+    "region": "southamerica",
+    "emoji": "🫘",
+    "description": "Brazil's national dish — a hearty black bean stew with smoked pork, sausage, and served with rice and farofa.",
+    "ingredients": [
+      "black beans",
+      "pork ribs",
+      "smoked sausage",
+      "bacon",
+      "garlic",
+      "onion",
+      "bay leaf",
+      "rice",
+      "orange"
+    ],
+    "ingredientsFull": [
+      "500g black beans, soaked overnight",
+      "400g smoked pork ribs",
+      "200g smoked sausage, sliced",
+      "150g bacon, diced",
+      "1 large onion, diced",
+      "6 garlic cloves, minced",
+      "3 bay leaves",
+      "1 orange, halved",
+      "4 tbsp vegetable oil"
+    ],
+    "tags": [
+      "hearty",
+      "comfort",
+      "indulgent",
+      "adventurous"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "180 mins",
+    "difficulty": "hard",
+    "servings": "Serves 6",
+    "instructions": [
+      "Soak black beans overnight in cold water. Drain and rinse before cooking.",
+      "Cover beans with fresh cold water in a large heavy pot. Bring to a boil, skim foam, then reduce to a steady simmer.",
+      "Cook beans for 45–60 minutes until they begin to soften but are not yet fully tender.",
+      "In a separate pan, render bacon until crispy. Remove and set aside. In the same fat, brown the smoked sausage slices on both sides. Remove and set aside.",
+      "Add pork ribs to the same pan and brown on all sides, about 8 minutes. Remove and set aside.",
+      "Sauté diced onion in the same pan until golden. Add garlic and cook 2 minutes.",
+      "Transfer the onion, garlic, all the browned meats, and bacon to the bean pot. Add bay leaves and orange halves.",
+      "Simmer everything together, partially covered, for 1.5 hours, stirring occasionally. The beans should be very soft and the stew thick and fragrant.",
+      "Remove the orange halves and bay leaves. Taste and adjust salt — smoked meats add salt, so check carefully.",
+      "For a thicker stew, scoop out a cup of beans and mash them, then stir back in.",
+      "Make farofa: toast manioc flour in butter with diced onion until golden. Season with salt.",
+      "Serve feijoada in deep bowls with white rice, sautéed collard greens, farofa, orange slices, and a few drops of hot sauce."
+    ],
+    "nutrition": {
+      "calories": 580,
+      "protein": 38,
+      "carbs": 48,
+      "fat": 24,
+      "fiber": 14
+    }
+  },
+  {
+    "id": "023",
+    "name": "Tom Yum Soup",
+    "cuisine": "Thai",
+    "country": "Thailand",
+    "flag": "🇹🇭",
+    "region": "asia",
+    "emoji": "🍲",
+    "description": "Hot and sour Thai soup with shrimp, lemongrass, galangal, kaffir lime leaves, and chili.",
+    "ingredients": [
+      "shrimp",
+      "lemongrass",
+      "galangal",
+      "kaffir lime leaves",
+      "chili",
+      "mushrooms",
+      "fish sauce",
+      "lime juice",
+      "tomatoes"
+    ],
+    "ingredientsFull": [
+      "400g large shrimp, peeled",
+      "1L chicken or shrimp stock",
+      "3 stalks lemongrass, bruised",
+      "4cm galangal, sliced",
+      "6 kaffir lime leaves",
+      "3 bird's eye chilies",
+      "200g oyster mushrooms",
+      "3 tbsp fish sauce",
+      "2 tbsp lime juice",
+      "1 tsp sugar",
+      "Fresh cilantro to serve"
+    ],
+    "tags": [
+      "spicy",
+      "light",
+      "fresh",
+      "adventurous"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "seafood"
+    ],
+    "spice": "hot",
+    "prepTime": "30 mins",
+    "difficulty": "medium",
+    "servings": "Serves 4",
+    "instructions": [
+      "Smash lemongrass stalks with the back of a knife to bruise them and release oils. Cut into 5cm pieces.",
+      "Slice galangal into thin coins. Tear kaffir lime leaves in half to release their fragrance.",
+      "Bring stock to a boil in a pot. Add lemongrass, galangal, kaffir lime leaves, and whole bird's eye chilies.",
+      "Reduce heat and simmer for 8–10 minutes to deeply infuse the aromatic flavors into the broth.",
+      "Add oyster mushrooms and any cherry tomatoes if using. Cook for 3 minutes.",
+      "Add shrimp and cook just until they turn pink and curl, about 2 minutes. Do not overcook.",
+      "Remove from heat. Season with fish sauce, fresh lime juice, and sugar.",
+      "Taste the broth — it should be a bold balance of sour, salty, spicy, and slightly sweet. Adjust each element as needed.",
+      "Serve hot in bowls garnished with fresh cilantro leaves. The lemongrass, galangal, and lime leaves are aromatics — move them to the side while eating."
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 24,
+      "carbs": 8,
+      "fat": 4,
+      "fiber": 1
+    }
+  },
+  {
+    "id": "024",
+    "name": "Injera with Doro Wat",
+    "cuisine": "Ethiopian",
+    "country": "Ethiopia",
+    "flag": "🇪🇹",
+    "region": "africa",
+    "emoji": "🫓",
+    "description": "Spongy sourdough flatbread served with slow-cooked spicy chicken stew in berbere sauce.",
+    "ingredients": [
+      "teff flour",
+      "chicken",
+      "berbere spice",
+      "eggs",
+      "niter kibbeh",
+      "onion",
+      "garlic",
+      "ginger"
+    ],
+    "ingredientsFull": [
+      "300g teff flour (for injera batter)",
+      "1kg chicken pieces",
+      "4 large onions, finely diced",
+      "4 tbsp berbere spice paste",
+      "3 tbsp niter kibbeh (spiced butter)",
+      "6 hard-boiled eggs, peeled and scored",
+      "4 garlic cloves",
+      "1 tbsp ginger, grated"
+    ],
+    "tags": [
+      "adventurous",
+      "spicy",
+      "comfort",
+      "hearty"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "hot",
+    "prepTime": "120 mins",
+    "difficulty": "hard",
+    "servings": "Serves 4",
+    "instructions": [
+      "Make injera batter 2–3 days ahead: mix teff flour with water to a thin pancake batter consistency. Cover loosely with a cloth and leave at room temperature to ferment. The batter should bubble and turn pleasantly sour.",
+      "When ready to cook injera, thin the batter with water until it pours like a thin crepe batter. Stir in a pinch of salt.",
+      "Heat a large non-stick pan over medium heat. Pour in a ladleful of batter in a spiral from the outside in, filling the pan. Cover immediately with a lid.",
+      "Cook for 2–3 minutes until the top is no longer wet and the injera peels away from the edges. Do not flip — injera is cooked on one side only. Slide onto a cloth to cool.",
+      "For Doro Wat: place very finely diced onions in a heavy pot with no oil over medium heat. Cook dry, stirring constantly, for 30–40 minutes until they are completely soft and beginning to color. This caramelization is essential for depth.",
+      "Add niter kibbeh (spiced clarified butter), garlic, and ginger. Cook for 5 minutes.",
+      "Add berbere paste. Stir and cook over medium heat for 10–15 minutes, adding splashes of water to prevent burning. The berbere must fry in the butter to develop full flavor.",
+      "Score the chicken pieces deeply with a knife. Add to the pot and stir to coat in the sauce.",
+      "Add 200ml water. Cover and simmer on low heat for 40 minutes, turning chicken occasionally.",
+      "Peel and score the hard-boiled eggs all over with a fork or make shallow cuts. Add to the stew.",
+      "Simmer uncovered for 15 more minutes until the sauce is thick and the eggs have absorbed the flavors.",
+      "Arrange injera on a large communal platter. Spoon Doro Wat on top. Serve with extra injera pieces folded alongside for scooping."
+    ],
+    "nutrition": {
+      "calories": 460,
+      "protein": 34,
+      "carbs": 42,
+      "fat": 16,
+      "fiber": 6
+    }
+  },
+  {
+    "id": "025",
+    "name": "Shakshuka",
+    "cuisine": "Israeli/North African",
+    "country": "Israel",
+    "flag": "🇮🇱",
+    "region": "middleeast",
+    "emoji": "🍳",
+    "description": "Eggs poached in a spiced tomato and pepper sauce — a one-pan wonder perfect any time of day.",
+    "ingredients": [
+      "eggs",
+      "tomatoes",
+      "red bell peppers",
+      "onion",
+      "garlic",
+      "cumin",
+      "paprika",
+      "chili flakes",
+      "feta"
+    ],
+    "ingredientsFull": [
+      "4 large eggs",
+      "400g canned tomatoes",
+      "1 red bell pepper, diced",
+      "1 onion, diced",
+      "3 garlic cloves, minced",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "1/2 tsp chili flakes",
+      "2 tbsp olive oil",
+      "50g feta cheese",
+      "Fresh parsley to serve"
+    ],
+    "tags": [
+      "quick",
+      "comfort",
+      "healthy",
+      "vegetarian-friendly"
+    ],
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "spice": "medium",
+    "prepTime": "25 mins",
+    "difficulty": "easy",
+    "servings": "Serves 2",
+    "instructions": [
+      "Heat olive oil in a large, deep skillet or cast iron pan over medium heat.",
+      "Add diced onion and cook for 7–8 minutes, stirring occasionally, until fully softened and slightly golden.",
+      "Add diced red pepper and cook for another 4 minutes until it begins to soften.",
+      "Add minced garlic, cumin, paprika, and chili flakes. Stir for 1 minute until fragrant — the spices should sizzle in the oil.",
+      "Pour in canned tomatoes, crushing whole tomatoes with your spoon. Season with salt and a pinch of sugar.",
+      "Simmer the sauce uncovered for 10–12 minutes, stirring occasionally, until it thickens and the oil rises to the surface.",
+      "Taste and adjust seasoning — it should be bold, smoky, and slightly sweet. Add more chili if desired.",
+      "Use the back of a spoon to create 4 deep wells in the sauce. Crack an egg carefully into each well.",
+      "Cover the pan with a lid and cook on low heat for 5–7 minutes. Check frequently — the whites should be fully set while the yolks remain runny.",
+      "Crumble feta generously over the top. Garnish with fresh parsley or cilantro and a drizzle of olive oil. Serve directly from the pan with crusty bread for dipping."
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": 18,
+      "carbs": 18,
+      "fat": 20,
+      "fiber": 4
+    }
+  },
+  {
+    "id": "026",
+    "name": "Beef Stroganoff",
+    "cuisine": "Russian",
+    "country": "Russia",
+    "flag": "🇷🇺",
+    "region": "europe",
+    "emoji": "🥩",
+    "description": "Tender strips of beef in a rich sour cream and mushroom sauce, served over egg noodles.",
+    "ingredients": [
+      "beef tenderloin",
+      "mushrooms",
+      "sour cream",
+      "onion",
+      "butter",
+      "beef stock",
+      "egg noodles",
+      "mustard"
+    ],
+    "ingredientsFull": [
+      "600g beef tenderloin, cut into strips",
+      "300g mushrooms, sliced",
+      "200ml sour cream",
+      "1 large onion, sliced",
+      "3 tbsp butter",
+      "1 tbsp Dijon mustard",
+      "200ml beef stock",
+      "1 tbsp flour",
+      "400g egg noodles to serve"
+    ],
+    "tags": [
+      "comfort",
+      "creamy",
+      "warm",
+      "indulgent"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "35 mins",
+    "difficulty": "medium",
+    "servings": "Serves 4",
+    "instructions": [
+      "Slice beef tenderloin across the grain into thin strips, about 1cm thick and 5cm long. Pat completely dry with paper towels.",
+      "Season beef generously with salt and pepper just before cooking.",
+      "Melt 2 tbsp butter in a large heavy pan over very high heat until just starting to smoke. Sear beef strips in a single layer — do not crowd. Cook 60 seconds per side for medium-rare. Work in batches. Remove and set aside.",
+      "Reduce heat to medium. Add remaining butter and the sliced onion. Cook for 8 minutes until softened and golden.",
+      "Add sliced mushrooms. Turn heat back to high and cook without stirring for 3–4 minutes until mushrooms are browned and all released liquid has evaporated.",
+      "Sprinkle flour over the mushrooms and stir for 1 minute.",
+      "Pour in beef stock and Dijon mustard. Stir and bring to a simmer, scraping up any browned bits.",
+      "Cook the sauce for 3–4 minutes until slightly thickened.",
+      "Reduce heat to the lowest setting. Stir in sour cream until combined — do not let it boil or it will curdle.",
+      "Return beef strips to the pan and heat gently for 1–2 minutes. Taste and adjust salt and mustard.",
+      "Cook egg noodles separately until tender. Serve stroganoff over noodles, garnished with fresh dill and a small spoonful of extra sour cream."
+    ],
+    "nutrition": {
+      "calories": 560,
+      "protein": 38,
+      "carbs": 52,
+      "fat": 22,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "027",
+    "name": "Poutine",
+    "cuisine": "Canadian",
+    "country": "Canada",
+    "flag": "🇨🇦",
+    "region": "northamerica",
+    "emoji": "🍟",
+    "description": "Crispy fries smothered in rich beef gravy and topped with fresh cheese curds — Canadian comfort food royalty.",
+    "ingredients": [
+      "potatoes",
+      "cheese curds",
+      "beef gravy",
+      "butter",
+      "flour",
+      "beef stock"
+    ],
+    "ingredientsFull": [
+      "600g russet potatoes",
+      "200g cheese curds",
+      "3 tbsp butter",
+      "2 tbsp flour",
+      "400ml beef stock",
+      "1 tsp Worcestershire sauce",
+      "Vegetable oil for frying"
+    ],
+    "tags": [
+      "comfort",
+      "indulgent",
+      "hearty",
+      "quick"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner",
+      "snack"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "spice": "mild",
+    "prepTime": "30 mins",
+    "difficulty": "easy",
+    "servings": "Serves 2",
+    "instructions": [
+      "Peel potatoes and cut into thick fries, about 1cm wide. Soak in cold water for at least 30 minutes to remove starch — this is critical for crispiness.",
+      "Drain fries and dry thoroughly with towels. Any moisture will cause dangerous oil splatter.",
+      "Heat oil in a deep pot or fryer to 160°C. Blanch fries in batches for 5–6 minutes until cooked through but not yet colored. Remove and drain on paper towels. Let cool for 10 minutes.",
+      "Make the gravy: melt butter in a small saucepan over medium heat. Whisk in flour and cook for 2 minutes, stirring, until it smells slightly nutty.",
+      "Gradually whisk in warm beef stock, ensuring no lumps form. Add Worcestershire sauce, salt, and pepper.",
+      "Simmer the gravy for 5 minutes until thick enough to coat a spoon. Keep warm on very low heat.",
+      "Increase oil temperature to 190°C. Fry the blanched fries again in batches for 3–4 minutes until deep golden brown and very crispy.",
+      "Drain on paper towels and season immediately with salt.",
+      "Pile hot fries into a serving bowl or tray. Scatter cheese curds generously over the hot fries — the heat will soften but not fully melt them.",
+      "Pour hot gravy over everything immediately, so the curds soften and the fries begin to absorb the sauce. Serve right away."
+    ],
+    "nutrition": {
+      "calories": 620,
+      "protein": 18,
+      "carbs": 72,
+      "fat": 28,
+      "fiber": 5
+    }
+  },
+  {
+    "id": "028",
+    "name": "Masala Dosa",
+    "cuisine": "South Indian",
+    "country": "India",
+    "flag": "🇮🇳",
+    "region": "asia",
+    "emoji": "🫓",
+    "description": "Crispy fermented crepe filled with spiced potato filling, served with coconut chutney and sambar.",
+    "ingredients": [
+      "rice",
+      "lentils",
+      "potatoes",
+      "mustard seeds",
+      "curry leaves",
+      "turmeric",
+      "onion",
+      "coconut"
+    ],
+    "ingredientsFull": [
+      "200g rice + 100g urad dal (soaked, blended, fermented overnight)",
+      "4 medium potatoes, boiled",
+      "1 tsp mustard seeds",
+      "10 curry leaves",
+      "1 tsp turmeric",
+      "1 onion, sliced",
+      "2 green chilies",
+      "2 tbsp oil",
+      "Coconut chutney to serve"
+    ],
+    "tags": [
+      "light",
+      "healthy",
+      "vegetarian",
+      "adventurous"
+    ],
+    "mealType": [
+      "breakfast",
+      "lunch"
+    ],
+    "dietary": [
+      "vegan",
+      "vegetarian"
+    ],
+    "spice": "medium",
+    "prepTime": "60 mins",
+    "difficulty": "hard",
+    "servings": "Serves 2",
+    "instructions": [
+      "Soak rice and urad dal separately in water for 6–8 hours. Drain.",
+      "Blend dal first with minimal water until light and fluffy. Then blend rice with water until smooth. Combine both batters, add salt, and mix. The consistency should be like a thin pancake batter.",
+      "Ferment the batter in a warm place for 8–12 hours (or overnight) until it rises and smells pleasantly sour and yeasty.",
+      "Make potato filling: heat oil in a pan. Add mustard seeds — when they pop, add curry leaves, then sliced onion and green chili.",
+      "Cook onion for 5 minutes until softened. Add turmeric and stir.",
+      "Add boiled potatoes and mash roughly into the spiced onion. They should be chunky, not smooth. Season with salt. Remove from heat.",
+      "Make coconut chutney: blend fresh coconut, green chili, ginger, and a little water. Temper with mustard seeds and curry leaves fried in oil. Set aside.",
+      "Heat a flat non-stick or cast iron pan over high heat. Sprinkle a few drops of water — it should evaporate instantly.",
+      "Ladle batter onto the pan and immediately spread in concentric circles outward to a very thin, even layer. Work quickly.",
+      "Drizzle a little oil around the edges and a few drops on top. The dosa will turn golden and begin to crisp — this takes 2–3 minutes.",
+      "When the surface looks dry and edges lift easily, add a spoonful of potato filling along the center.",
+      "Fold dosa in half over the filling or roll into a cylinder. Slide onto a plate and serve immediately with coconut chutney and sambar."
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 10,
+      "carbs": 72,
+      "fat": 8,
+      "fiber": 5
+    }
+  },
+  {
+    "id": "029",
+    "name": "Boeuf Bourguignon",
+    "cuisine": "French",
+    "country": "France",
+    "flag": "🇫🇷",
+    "region": "europe",
+    "emoji": "🍖",
+    "description": "Beef slow-braised in Burgundy wine with carrots, mushrooms, and onions — a French countryside classic.",
+    "ingredients": [
+      "beef chuck",
+      "red wine",
+      "carrots",
+      "mushrooms",
+      "onions",
+      "garlic",
+      "thyme",
+      "bay leaf",
+      "bacon"
+    ],
+    "ingredientsFull": [
+      "1.2kg beef chuck, cubed",
+      "750ml Burgundy red wine",
+      "300g carrots, sliced",
+      "200g mushrooms",
+      "200g pearl onions",
+      "150g bacon lardons",
+      "4 garlic cloves",
+      "2 tbsp tomato paste",
+      "Fresh thyme and 2 bay leaves",
+      "3 tbsp butter",
+      "3 tbsp flour"
+    ],
+    "tags": [
+      "comfort",
+      "warm",
+      "indulgent",
+      "slow cook"
+    ],
+    "mealType": [
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "240 mins",
+    "difficulty": "hard",
+    "servings": "Serves 6",
+    "instructions": [
+      "The day before: combine beef chunks, wine, sliced carrots, garlic, thyme, and bay leaves in a large bowl. Cover and marinate in the fridge overnight.",
+      "Remove beef from the marinade and pat very dry with paper towels. Reserve the marinade.",
+      "Preheat oven to 160°C. In a Dutch oven, cook bacon lardons over medium heat until the fat renders and they are golden. Remove with a slotted spoon.",
+      "Increase heat to high. Working in batches, sear beef cubes in the bacon fat for 3–4 minutes per side until deeply browned on all surfaces. Do not rush — this browning creates deep flavor. Remove each batch.",
+      "Reduce heat to medium. Sauté the reserved marinated carrots, and any other vegetables, until slightly softened. Add garlic and tomato paste. Cook 2 minutes.",
+      "Sprinkle flour over the vegetables. Stir for 1–2 minutes until the flour is cooked.",
+      "Strain the reserved wine marinade and pour it in, scraping up all browned bits from the bottom.",
+      "Return beef and lardons to the pot. Add enough beef stock so the meat is just covered. Tuck in fresh thyme and bay leaves.",
+      "Bring to a boil, then cover with a tight-fitting lid and transfer to the oven.",
+      "Braise for 2.5–3 hours until the beef is completely tender and yields easily when pressed.",
+      "While the stew cooks, peel pearl onions and cook in butter until golden all over. Set aside. Sauté mushrooms separately in butter until browned. Set aside.",
+      "When the beef is done, remove the pot from the oven. Transfer beef to a plate. Strain the sauce through a sieve and return to the pot. Skim off excess fat.",
+      "Simmer the sauce until it coats a spoon, about 10 minutes. Return beef, pearl onions, and mushrooms. Taste and adjust seasoning. Serve with crusty baguette or buttery mashed potatoes."
+    ],
+    "nutrition": {
+      "calories": 540,
+      "protein": 40,
+      "carbs": 16,
+      "fat": 30,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "030",
+    "name": "Mango Sticky Rice",
+    "cuisine": "Thai",
+    "country": "Thailand",
+    "flag": "🇹🇭",
+    "region": "asia",
+    "emoji": "🥭",
+    "description": "Sweet glutinous rice soaked in coconut milk served alongside fresh ripe mango slices.",
+    "ingredients": [
+      "glutinous rice",
+      "coconut milk",
+      "mango",
+      "sugar",
+      "salt",
+      "sesame seeds"
+    ],
+    "ingredientsFull": [
+      "200g glutinous rice",
+      "400ml coconut milk",
+      "3 tbsp sugar",
+      "1/2 tsp salt",
+      "2 ripe mangoes, sliced",
+      "1 tbsp sesame seeds, toasted"
+    ],
+    "tags": [
+      "sweet",
+      "light",
+      "fresh",
+      "dessert"
+    ],
+    "mealType": [
+      "dessert",
+      "snack"
+    ],
+    "dietary": [
+      "vegan",
+      "vegetarian"
+    ],
+    "spice": "mild",
+    "prepTime": "40 mins",
+    "difficulty": "easy",
+    "servings": "Serves 2",
+    "instructions": [
+      "Soak glutinous rice in cold water for at least 4 hours, or overnight. Drain thoroughly.",
+      "Set up a bamboo steamer lined with muslin cloth or banana leaf over a pot of boiling water. Spread rice in an even layer.",
+      "Steam covered for 20–25 minutes until the rice is translucent and fully tender. Fluff with a fork and check — it should be sticky and chewy, not hard in the center.",
+      "While rice steams, pour coconut milk into a small saucepan. Add sugar and salt. Heat over medium heat, stirring, until sugar dissolves. Remove from heat just before it boils.",
+      "Reserve about 4 tablespoons of coconut milk for the topping.",
+      "Transfer hot cooked rice to a bowl. Pour the main portion of sweetened coconut milk over the rice. Stir gently to combine. Cover and let sit for 15–20 minutes — the rice will absorb most of the liquid and become creamy.",
+      "Toast sesame seeds in a dry pan over medium heat for 2–3 minutes until golden. Set aside.",
+      "Peel mangoes and slice the flesh away from the pit. Slice lengthwise into thin fans.",
+      "Mound sticky rice on plates using a small bowl as a mold for a neat shape. Arrange mango slices alongside.",
+      "Drizzle the reserved coconut milk over the rice. Sprinkle with toasted sesame seeds and serve at room temperature."
+    ],
+    "nutrition": {
+      "calories": 480,
+      "protein": 6,
+      "carbs": 88,
+      "fat": 14,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "031",
+    "name": "Goulash",
+    "cuisine": "Hungarian",
+    "country": "Hungary",
+    "flag": "🇭🇺",
+    "region": "europe",
+    "emoji": "🍲",
+    "description": "Hearty beef and vegetable soup richly seasoned with sweet Hungarian paprika and caraway seeds.",
+    "ingredients": [
+      "beef",
+      "paprika",
+      "potatoes",
+      "onions",
+      "tomatoes",
+      "caraway seeds",
+      "garlic",
+      "green peppers"
+    ],
+    "ingredientsFull": [
+      "700g beef chuck, cubed",
+      "4 tbsp sweet Hungarian paprika",
+      "3 large potatoes, cubed",
+      "2 large onions, diced",
+      "2 tomatoes, diced",
+      "2 green bell peppers, diced",
+      "3 garlic cloves",
+      "1 tsp caraway seeds",
+      "2 tbsp lard or oil",
+      "1L beef stock"
+    ],
+    "tags": [
+      "comfort",
+      "hearty",
+      "warm",
+      "savory"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "120 mins",
+    "difficulty": "medium",
+    "servings": "Serves 4",
+    "instructions": [
+      "Cut beef chuck into 3cm cubes. Pat dry and season with salt.",
+      "Heat lard or oil in a large heavy pot over medium-high heat. Brown beef in batches, 3 minutes per side, until a deep crust forms. Remove and set aside. Do not crowd the pan.",
+      "Reduce to medium heat. Add diced onions and cook, stirring often, for 10 minutes until soft and golden.",
+      "Remove the pot from direct heat momentarily — this is important. Add Hungarian sweet paprika and stir to coat the onions. Return to low heat and cook 1 minute. Paprika burns easily and will turn bitter if it hits the full flame.",
+      "Add crushed garlic and caraway seeds. Stir for 30 seconds.",
+      "Return beef to the pot. Add diced tomatoes, green peppers, and just enough beef stock to barely cover the meat.",
+      "Bring to a boil, scraping any browned bits from the bottom. Reduce to a low, gentle simmer.",
+      "Cover and cook for 1 hour 15 minutes, stirring occasionally. The beef should be becoming tender.",
+      "Add cubed potatoes. Pour in remaining stock to cover everything. Cook for another 25–30 minutes until potatoes are fully cooked and beef is very tender.",
+      "Taste and adjust salt. The broth should be rich, paprika-red, and deeply savory.",
+      "Serve as a hearty soup in deep bowls with slices of crusty rye bread and a dollop of sour cream."
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 32,
+      "carbs": 36,
+      "fat": 16,
+      "fiber": 5
+    }
+  },
+  {
+    "id": "032",
+    "name": "Roti Canai",
+    "cuisine": "Malaysian",
+    "country": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "asia",
+    "emoji": "🫓",
+    "description": "Flaky, buttery flatbread served with dal curry or lentil soup — a Malaysian breakfast staple.",
+    "ingredients": [
+      "flour",
+      "butter",
+      "eggs",
+      "salt",
+      "water",
+      "lentils",
+      "onion",
+      "curry powder"
+    ],
+    "ingredientsFull": [
+      "300g all-purpose flour",
+      "150ml warm water",
+      "4 tbsp butter, softened",
+      "1 egg",
+      "1 tsp salt",
+      "200g red lentils",
+      "1 onion, diced",
+      "2 tsp curry powder",
+      "1 tbsp vegetable oil"
+    ],
+    "tags": [
+      "street food",
+      "comfort",
+      "light",
+      "quick"
+    ],
+    "mealType": [
+      "breakfast",
+      "snack"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "spice": "mild",
+    "prepTime": "45 mins",
+    "difficulty": "medium",
+    "servings": "Serves 2",
+    "instructions": [
+      "In a bowl, combine flour and salt. Make a well and add the beaten egg and warm water. Mix until a shaggy dough forms.",
+      "Turn out onto a floured surface and knead for 10 minutes until smooth and elastic. The dough should be soft but not sticky.",
+      "Coat dough in melted butter. Divide into 6 equal balls. Rub each ball generously with softened butter. Rest covered for at least 1 hour — 3 hours gives a better result.",
+      "Start the dal curry: heat oil in a pot. Fry onion with curry powder for 5 minutes. Add rinsed red lentils, 500ml water, salt, and a pinch of turmeric.",
+      "Simmer dal for 20 minutes until lentils are soft and stew-like. Mash slightly for a thicker consistency. Keep warm.",
+      "On an oiled surface (or clean counter), press a dough ball flat with oiled hands. Stretch it as thinly as possible by pressing outward from the center — nearly translucent.",
+      "Fold the stretched dough into itself: lift one edge to the center, then fold opposite edge over, creating a rectangular layered parcel. Then fold in the ends to create a small square.",
+      "Repeat with remaining balls. Rest folded parcels for 10 minutes.",
+      "Heat a flat griddle or pan over medium-high heat. Lightly grease with oil or butter.",
+      "Press each folded roti flat with your palm into a thin round. Cook for 2–3 minutes per side until golden brown with darker spots.",
+      "Remove from heat and immediately clap the roti between your palms to fluff up the layers. This is the key step for creating the characteristic flaky texture.",
+      "Serve hot with the warm dal curry for dipping."
+    ],
+    "nutrition": {
+      "calories": 440,
+      "protein": 14,
+      "carbs": 72,
+      "fat": 12,
+      "fiber": 6
+    }
+  },
+  {
+    "id": "033",
+    "name": "Empanadas",
+    "cuisine": "Argentinian",
+    "country": "Argentina",
+    "flag": "🇦🇷",
+    "region": "southamerica",
+    "emoji": "🥟",
+    "description": "Golden baked or fried pastry pockets filled with spiced beef, olives, hard-boiled egg, and raisins.",
+    "ingredients": [
+      "flour",
+      "butter",
+      "beef",
+      "onion",
+      "olives",
+      "eggs",
+      "raisins",
+      "paprika",
+      "cumin"
+    ],
+    "ingredientsFull": [
+      "400g all-purpose flour",
+      "150g cold butter",
+      "1 egg + 1 for brushing",
+      "100ml cold water",
+      "400g ground beef",
+      "1 onion, diced",
+      "2 hard-boiled eggs, chopped",
+      "50g green olives, sliced",
+      "50g raisins",
+      "1 tsp paprika",
+      "1 tsp cumin"
+    ],
+    "tags": [
+      "street food",
+      "comfort",
+      "quick",
+      "savory"
+    ],
+    "mealType": [
+      "lunch",
+      "snack"
+    ],
+    "dietary": [
+      "meat"
+    ],
+    "spice": "mild",
+    "prepTime": "60 mins",
+    "difficulty": "medium",
+    "servings": "Serves 4",
+    "instructions": [
+      "Make the dough: cut cold butter into small cubes. Rub into flour and salt until it resembles breadcrumbs.",
+      "Add 1 beaten egg and cold water. Mix until dough just comes together — do not overwork it. Wrap in plastic and refrigerate for 30 minutes.",
+      "Make the filling: cook diced onion in oil over medium heat for 8 minutes until soft. Add garlic, cumin, paprika, chili flakes, salt, and pepper. Stir for 1 minute.",
+      "Add ground beef and cook, breaking it up, until browned and any liquid has evaporated, about 8 minutes. Taste and adjust seasoning.",
+      "Transfer to a bowl and let cool to room temperature. Once cool, fold in chopped hard-boiled eggs, sliced olives, and raisins.",
+      "Preheat oven to 190°C. Line a baking tray with parchment.",
+      "On a floured surface, roll dough to 3mm thickness. Cut circles about 12cm in diameter using a bowl or cutter.",
+      "Place a heaped tablespoon of filling slightly off-center on each circle. Leave a clean 1cm border.",
+      "Fold the dough over the filling to create a half-moon. Press edges firmly together, then crimp by folding and pressing the edge in a rope pattern, or seal with a fork.",
+      "Place empanadas on the lined tray. Brush with beaten egg for shine.",
+      "Bake for 22–25 minutes until golden brown. Rest 5 minutes before eating — the filling will be very hot."
+    ],
+    "nutrition": {
+      "calories": 460,
+      "protein": 22,
+      "carbs": 48,
+      "fat": 20,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "034",
+    "name": "Baklava",
+    "cuisine": "Turkish",
+    "country": "Turkey",
+    "flag": "🇹🇷",
+    "region": "middleeast",
+    "emoji": "🍯",
+    "description": "Flaky phyllo pastry layered with chopped pistachios or walnuts, soaked in rose water honey syrup.",
+    "ingredients": [
+      "phyllo dough",
+      "pistachios",
+      "walnuts",
+      "butter",
+      "honey",
+      "sugar",
+      "rose water",
+      "lemon"
+    ],
+    "ingredientsFull": [
+      "500g phyllo dough",
+      "250g unsalted butter, melted",
+      "300g pistachios or walnuts, finely chopped",
+      "300g sugar",
+      "200ml water",
+      "2 tbsp honey",
+      "1 tbsp rose water",
+      "1 cinnamon stick"
+    ],
+    "tags": [
+      "sweet",
+      "indulgent",
+      "dessert",
+      "elegant"
+    ],
+    "mealType": [
+      "dessert",
+      "snack"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "spice": "mild",
+    "prepTime": "90 mins",
+    "difficulty": "hard",
+    "servings": "Serves 12",
+    "instructions": [
+      "Make syrup first so it cools completely before the baklava is done: combine sugar, water, and cinnamon stick in a saucepan. Bring to a boil, stir until sugar dissolves, then simmer for 10 minutes.",
+      "Remove cinnamon stick. Add honey, rose water, and a squeeze of lemon. Stir and set aside to cool completely — the syrup must be cold when poured over hot baklava.",
+      "Preheat oven to 180°C. Generously butter a 33x23cm (9x13 inch) baking pan.",
+      "Finely chop pistachios or walnuts. Mix with a pinch of cinnamon and cardamom.",
+      "Keep phyllo dough covered with a slightly damp cloth to prevent drying. Lay one sheet in the buttered pan and brush thoroughly with melted butter all the way to the edges.",
+      "Continue layering and buttering sheets one at a time until you have 10 sheets.",
+      "Spread half the nut mixture evenly over the phyllo.",
+      "Layer 10 more buttered phyllo sheets on top.",
+      "Spread the remaining nut mixture evenly.",
+      "Finish with a final 10 buttered phyllo sheets on top. Brush the top generously with butter.",
+      "Using a sharp knife, cut the baklava into diamond shapes before baking — cut all the way through to the bottom.",
+      "Bake for 45–55 minutes until the top is evenly deep golden and the edges are crispy.",
+      "Remove from oven and immediately pour the cold syrup all over the hot baklava. Let the sizzling subside, then leave to soak at room temperature for at least 4 hours, ideally overnight, before serving."
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 4,
+      "carbs": 34,
+      "fat": 16,
+      "fiber": 2
+    }
+  },
+  {
+    "id": "035",
+    "name": "Kimchi Fried Rice",
+    "cuisine": "Korean",
+    "country": "South Korea",
+    "flag": "🇰🇷",
+    "region": "asia",
+    "emoji": "🍚",
+    "description": "Tangy fermented kimchi stir-fried with rice, gochujang, and topped with a crispy fried egg.",
+    "ingredients": [
+      "rice",
+      "kimchi",
+      "gochujang",
+      "eggs",
+      "sesame oil",
+      "green onion",
+      "soy sauce",
+      "butter"
+    ],
+    "ingredientsFull": [
+      "400g cooked rice",
+      "200g kimchi, chopped",
+      "2 eggs",
+      "2 tbsp gochujang",
+      "1 tbsp sesame oil",
+      "2 tsp soy sauce",
+      "1 tbsp butter",
+      "2 green onions, sliced",
+      "1 tbsp sesame seeds"
+    ],
+    "tags": [
+      "quick",
+      "comfort",
+      "spicy",
+      "savory"
+    ],
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "spice": "medium",
+    "prepTime": "15 mins",
+    "difficulty": "easy",
+    "servings": "Serves 2",
+    "instructions": [
+      "Use cold, day-old cooked rice for the best result — it fries without clumping. Break up any clumps with your hands.",
+      "Squeeze excess liquid from the chopped kimchi. Reserve the kimchi juice — you'll add it to the rice.",
+      "Heat butter in a wok or large pan over high heat until it begins to brown slightly.",
+      "Add the drained kimchi and stir-fry for 3–4 minutes until it caramelizes and turns slightly darker in color. This removes excess sourness and deepens the flavor.",
+      "Add gochujang and soy sauce. Stir to coat the kimchi.",
+      "Add the cold rice to the pan. Break it up and toss with the kimchi. Press down and let it fry undisturbed for 1 minute, then toss again. Repeat for 3–4 minutes total.",
+      "Add a splash of the reserved kimchi juice and stir through for extra flavor.",
+      "Season with more soy sauce if needed. Remove from heat and drizzle with sesame oil.",
+      "In a separate pan, fry the eggs in butter over medium heat until the whites are fully set and the edges are lacy and crispy, but the yolk is still runny.",
+      "Divide rice between two plates. Slide a fried egg on top of each. Garnish with sliced green onions and sesame seeds. Serve with extra gochujang on the side."
+    ],
+    "nutrition": {
+      "calories": 440,
+      "protein": 16,
+      "carbs": 68,
+      "fat": 12,
+      "fiber": 4
+    }
+  },
+  {
+    "id": "036",
+    "name": "Fish Tacos",
+    "cuisine": "Mexican",
+    "country": "Mexico",
+    "flag": "🇲🇽",
+    "region": "northamerica",
+    "emoji": "🌮",
+    "description": "Crispy battered fish in corn tortillas with cabbage slaw, chipotle crema, avocado, and lime.",
+    "ingredients": [
+      "white fish",
+      "corn tortillas",
+      "cabbage",
+      "avocado",
+      "lime",
+      "chipotle",
+      "sour cream",
+      "cilantro"
+    ],
+    "ingredientsFull": [
+      "400g white fish fillets (tilapia or cod)",
+      "8 small corn tortillas",
+      "1/2 head cabbage, shredded",
+      "1 avocado, sliced",
+      "2 limes",
+      "100ml sour cream",
+      "2 chipotle peppers in adobo",
+      "Handful of cilantro",
+      "1 cup flour",
+      "1 tsp cumin",
+      "Oil for frying"
+    ],
+    "tags": [
+      "fresh",
+      "light",
+      "street food",
+      "quick"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "seafood"
+    ],
+    "spice": "medium",
+    "prepTime": "30 mins",
+    "difficulty": "easy",
+    "servings": "Serves 2",
+    "instructions": [
+      "Make chipotle crema: blend chipotle peppers in adobo with sour cream, a squeeze of lime, and salt until smooth. Adjust spice level by adding more or fewer chipotles. Set aside.",
+      "Make the slaw: toss shredded cabbage with lime juice, a pinch of salt, and a little sugar. Let sit for 10 minutes to soften slightly.",
+      "Make the beer batter: whisk flour, cumin, garlic powder, salt, and enough cold beer or sparkling water to make a smooth batter the consistency of thin cream.",
+      "Pat fish fillets dry. Cut into strips or chunks about 3–4cm wide.",
+      "Season fish with salt and pepper. Dredge lightly in plain flour, shaking off the excess — this helps the batter adhere.",
+      "Heat 5cm of neutral oil in a pan to 180°C. Dip fish pieces in the batter, letting excess drip off, and lower carefully into the oil.",
+      "Fry for 3–4 minutes, turning once, until batter is golden and crispy. Fry in batches — do not crowd the pan. Drain on paper towels and season immediately.",
+      "Warm tortillas directly over a gas flame for 20 seconds per side until blistered, or in a dry pan.",
+      "Build tacos: place cabbage slaw on the tortilla first as a bed. Add fish pieces on top.",
+      "Add sliced avocado, a drizzle of chipotle crema, and a handful of fresh cilantro.",
+      "Squeeze fresh lime juice generously over everything. Serve immediately with extra lime wedges and hot sauce."
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 28,
+      "carbs": 44,
+      "fat": 14,
+      "fiber": 6
+    }
+  },
+  {
+    "id": "037",
+    "name": "Tiramisu",
+    "cuisine": "Italian",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "region": "europe",
+    "emoji": "🍰",
+    "description": "Layers of espresso-soaked ladyfingers and mascarpone cream dusted with cocoa powder.",
+    "ingredients": [
+      "ladyfingers",
+      "mascarpone",
+      "eggs",
+      "espresso",
+      "sugar",
+      "cocoa powder",
+      "marsala wine"
+    ],
+    "ingredientsFull": [
+      "300g ladyfinger biscuits",
+      "500g mascarpone cheese",
+      "4 eggs, separated",
+      "100g sugar",
+      "200ml strong espresso, cooled",
+      "4 tbsp marsala wine or rum",
+      "Cocoa powder for dusting"
+    ],
+    "tags": [
+      "sweet",
+      "indulgent",
+      "dessert",
+      "elegant"
+    ],
+    "mealType": [
+      "dessert"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "spice": "mild",
+    "prepTime": "30 mins",
+    "difficulty": "medium",
+    "servings": "Serves 6",
+    "instructions": [
+      "Brew strong espresso and let it cool to room temperature. Mix with marsala wine or rum in a shallow bowl. Set aside.",
+      "Separate eggs carefully — even a drop of yolk in the whites will prevent them from whipping.",
+      "In a large bowl, beat egg yolks with sugar using a hand mixer for 4–5 minutes until the mixture is very pale, thick, and falls in ribbons from the beater. This is called the zabaglione stage.",
+      "Add mascarpone to the egg yolk mixture and fold gently until smooth and combined. Do not overmix.",
+      "In a separate very clean bowl, whisk egg whites to stiff peaks — they should hold their shape firmly when you lift the beater.",
+      "Gently fold a third of the egg whites into the mascarpone mixture using a spatula in large sweeping motions. Add the remaining whites in two more additions. Keep as much air as possible — the cream should be light and airy.",
+      "One at a time, briefly dip each ladyfinger into the espresso mixture — hold it in for just 1 second per side. It should absorb some liquid without becoming completely soggy and falling apart.",
+      "Arrange a single layer of soaked ladyfingers in a dish or individual glasses.",
+      "Spread half the mascarpone cream over the ladyfingers in an even layer.",
+      "Add a second layer of soaked ladyfingers on top.",
+      "Spread the remaining cream over the top. Smooth with a spatula.",
+      "Cover and refrigerate for at least 4 hours — overnight gives a better set and allows flavors to develop.",
+      "Just before serving, dust generously with unsweetened cocoa powder through a fine sieve."
+    ],
+    "nutrition": {
+      "calories": 460,
+      "protein": 10,
+      "carbs": 42,
+      "fat": 28,
+      "fiber": 1
+    }
+  },
+  {
+    "id": "038",
+    "name": "Arepas",
+    "cuisine": "Colombian/Venezuelan",
+    "country": "Colombia",
+    "flag": "🇨🇴",
+    "region": "southamerica",
+    "emoji": "🫓",
+    "description": "Thick grilled cornmeal cakes split and stuffed with cheese, avocado, chicken, or black beans.",
+    "ingredients": [
+      "masarepa",
+      "water",
+      "salt",
+      "mozzarella",
+      "avocado",
+      "chicken",
+      "black beans"
+    ],
+    "ingredientsFull": [
+      "300g masarepa (precooked cornmeal)",
+      "350ml warm water",
+      "1 tsp salt",
+      "200g shredded mozzarella",
+      "1 avocado, sliced",
+      "200g shredded chicken (optional)",
+      "Butter for grilling"
+    ],
+    "tags": [
+      "comfort",
+      "street food",
+      "versatile",
+      "quick"
+    ],
+    "mealType": [
+      "breakfast",
+      "lunch",
+      "snack"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "spice": "mild",
+    "prepTime": "25 mins",
+    "difficulty": "easy",
+    "servings": "Serves 4",
+    "instructions": [
+      "In a large bowl, mix masarepa (precooked white or yellow cornmeal) with salt. Gradually add warm water, mixing with your hands.",
+      "Knead the dough for 2–3 minutes until it holds together without cracking. The dough should feel like soft modeling clay. If cracks appear when you press it, add more water a tablespoon at a time.",
+      "Let the dough rest for 5 minutes covered with a damp cloth — this helps the masarepa hydrate fully.",
+      "Divide into 8 equal balls. Roll each into a smooth ball between your palms, then press flat into a round disc about 1cm thick and 8–9cm wide. Smooth any cracks around the edges.",
+      "Heat a cast iron griddle, comal, or heavy pan over medium heat. Brush lightly with butter or oil.",
+      "Cook arepas for 5–6 minutes without moving until the bottom is golden brown with grill marks.",
+      "Flip and cook the other side for another 5–6 minutes. The arepa is ready when it sounds hollow when tapped and has a golden crust.",
+      "For a crispier result, finish in a 200°C oven for 5 minutes, or on a grill.",
+      "Using a sharp knife, carefully split the hot arepa around the equator to create a pocket, keeping the back attached like a clam shell.",
+      "Fill immediately with shredded mozzarella (it melts from the heat), sliced avocado, shredded chicken, or black beans. Serve at once."
+    ],
+    "nutrition": {
+      "calories": 280,
+      "protein": 8,
+      "carbs": 42,
+      "fat": 10,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "039",
+    "name": "Laksa",
+    "cuisine": "Singaporean",
+    "country": "Singapore",
+    "flag": "🇸🇬",
+    "region": "asia",
+    "emoji": "🍜",
+    "description": "Spicy coconut curry soup with rice noodles, shrimp, tofu puffs, and a vibrant laksa paste.",
+    "ingredients": [
+      "rice noodles",
+      "coconut milk",
+      "shrimp",
+      "tofu",
+      "laksa paste",
+      "lemongrass",
+      "bean sprouts",
+      "eggs"
+    ],
+    "ingredientsFull": [
+      "200g rice vermicelli",
+      "400ml coconut milk",
+      "400ml chicken stock",
+      "300g shrimp, peeled",
+      "100g tofu puffs, halved",
+      "2 eggs, hard-boiled",
+      "3 tbsp laksa paste",
+      "100g bean sprouts",
+      "Fresh mint leaves",
+      "1 tbsp fish sauce",
+      "1 lime"
+    ],
+    "tags": [
+      "spicy",
+      "comfort",
+      "adventurous",
+      "creamy"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "seafood"
+    ],
+    "spice": "hot",
+    "prepTime": "45 mins",
+    "difficulty": "medium",
+    "servings": "Serves 2",
+    "instructions": [
+      "Soak rice vermicelli in cold water for 15 minutes until softened. Drain and set aside.",
+      "Hard-boil eggs for 9 minutes. Transfer to cold water, peel, and halve. Set aside.",
+      "Heat a neutral oil in a medium pot over medium heat. Add laksa paste and fry, stirring constantly, for 3–4 minutes until darkened and very fragrant. The paste should sizzle and release its oil.",
+      "Pour in chicken stock and bring to a boil. Add the bruised lemongrass if using fresh, and any kaffir lime leaves.",
+      "Reduce heat and pour in coconut milk. Stir well and bring to a gentle simmer — do not let it boil hard or the coconut milk may split.",
+      "Season the broth with fish sauce, lime juice, and a pinch of sugar. Taste — it should be spicy, creamy, and well-balanced. Adjust as needed.",
+      "Add tofu puffs to the broth and simmer for 3 minutes to absorb flavor.",
+      "Add shrimp and cook for 2 minutes until they turn pink and are just cooked through. Remove from heat.",
+      "Blanch the soaked noodles in boiling water for 1 minute. Drain and divide between two deep bowls.",
+      "Ladle the hot laksa broth, shrimp, and tofu puffs over the noodles.",
+      "Top each bowl with halved eggs, a handful of bean sprouts, and fresh mint leaves. Add a wedge of lime and a drizzle of sambal chili for extra heat."
+    ],
+    "nutrition": {
+      "calories": 560,
+      "protein": 30,
+      "carbs": 56,
+      "fat": 24,
+      "fiber": 3
+    }
+  },
+  {
+    "id": "040",
+    "name": "Pierogi",
+    "cuisine": "Polish",
+    "country": "Poland",
+    "flag": "🇵🇱",
+    "region": "europe",
+    "emoji": "🥟",
+    "description": "Soft dumplings stuffed with potato and cheese, then boiled and pan-fried in butter with caramelized onions.",
+    "ingredients": [
+      "flour",
+      "eggs",
+      "potatoes",
+      "cheddar cheese",
+      "onion",
+      "butter",
+      "sour cream"
+    ],
+    "ingredientsFull": [
+      "400g all-purpose flour",
+      "1 egg",
+      "200ml sour cream",
+      "1 tsp salt",
+      "500g potatoes, boiled",
+      "200g cheddar or farmer's cheese",
+      "1 large onion",
+      "3 tbsp butter",
+      "Extra sour cream to serve"
+    ],
+    "tags": [
+      "comfort",
+      "hearty",
+      "warm",
+      "indulgent"
+    ],
+    "mealType": [
+      "lunch",
+      "dinner"
+    ],
+    "dietary": [
+      "vegetarian"
+    ],
+    "spice": "mild",
+    "prepTime": "90 mins",
+    "difficulty": "medium",
+    "servings": "Serves 4",
+    "instructions": [
+      "Make the dough: combine flour and salt in a bowl. Add egg and sour cream. Mix until a shaggy dough forms, then turn out and knead for 5 minutes until smooth and elastic.",
+      "Wrap dough in plastic and rest at room temperature for 30 minutes — this relaxes the gluten and makes it easier to roll.",
+      "Meanwhile, make the filling: melt 1 tbsp butter in a pan. Caramelize half the sliced onion for 15 minutes until sweet and golden. Set aside.",
+      "Mash the boiled potatoes until smooth. Fold in grated cheddar or farmer's cheese and the caramelized onion. Season generously with salt and pepper. Let cool.",
+      "Roll the rested dough on a floured surface to about 3mm thickness. Use a 7–8cm round cutter or the rim of a glass to cut circles.",
+      "Place a heaped teaspoon of filling in the center of each circle. Fold the dough over to form a half-moon, pressing the air out toward the edges.",
+      "Seal the edges by pressing firmly with your fingers, then crimp by folding the edge over itself in small overlapping pleats. A well-sealed edge prevents bursting during boiling.",
+      "Bring a large pot of salted water to a boil. Cook pierogi in batches — do not overcrowd. They are done about 2 minutes after they float to the surface.",
+      "Remove with a slotted spoon and toss with a little butter to prevent sticking.",
+      "In a wide pan, melt remaining butter over medium heat. Add the remaining sliced onion and cook until golden and starting to caramelize, about 10 minutes.",
+      "Add the boiled pierogi to the pan in a single layer. Press gently and pan-fry for 2–3 minutes per side until golden and slightly crispy.",
+      "Serve hot with the caramelized onions and a generous dollop of sour cream on the side."
+    ],
+    "nutrition": {
+      "calories": 380,
+      "protein": 12,
+      "carbs": 56,
+      "fat": 14,
+      "fiber": 3
+    }
+  }
+]
