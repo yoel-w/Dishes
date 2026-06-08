@@ -66,6 +66,14 @@ class Dish {
         if (matchCount != null) 'matchCount': matchCount,
       };
 
+  String get category {
+    if (mealType.contains('breakfast')) return 'Breakfast';
+    if (mealType.contains('dessert')) return 'Dessert';
+    if (mealType.contains('snack')) return 'Snack';
+    if (mealType.contains('lunch') || mealType.contains('dinner')) return 'Lunch/Dinner';
+    return mealType.isNotEmpty ? mealType.first : '';
+  }
+
   factory Dish.fromJson(Map<String, dynamic> json) {
     return Dish(
       id: json['id'] ?? '',

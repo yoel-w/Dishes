@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../screens/browse_by_name_screen.dart';
 import '../screens/country_list_screen.dart';
 import '../screens/results_screen.dart';
 import '../screens/settings_screen.dart';
@@ -63,6 +64,26 @@ class MenuDrawer extends StatelessWidget {
                     child: Divider(height: 24, color: scheme.divider),
                   ),
                   _RegionsExpansion(scheme: scheme),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 20),
+                    child: Divider(height: 24, color: scheme.divider),
+                  ),
+                  _MenuItem(
+                    emoji: '🔤',
+                    label: 'Browse All Dishes',
+                    subtitle: 'Search dishes by name',
+                    scheme: scheme,
+                    onTap: () {
+                      Navigator.pop(context);
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (_) =>
+                              const BrowseByNameScreen(autoFocusSearch: true),
+                        ),
+                      );
+                    },
+                  ),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 20),
                     child: Divider(height: 24, color: scheme.divider),

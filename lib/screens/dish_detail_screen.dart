@@ -10,6 +10,21 @@ class DishDetailScreen extends StatelessWidget {
 
   const DishDetailScreen({super.key, required this.dish});
 
+  Color _categoryColor(String category) {
+    switch (category) {
+      case 'Breakfast':
+        return const Color(0xFFF57C00);
+      case 'Lunch/Dinner':
+        return const Color(0xFF1565C0);
+      case 'Snack':
+        return const Color(0xFF2E7D32);
+      case 'Dessert':
+        return const Color(0xFF6A1B9A);
+      default:
+        return const Color(0xFF546E7A);
+    }
+  }
+
   Color _spiceColor(String spice) {
     switch (spice) {
       case 'hot':
@@ -122,6 +137,25 @@ class DishDetailScreen extends StatelessWidget {
                                     fontWeight: FontWeight.w500,
                                   ),
                                 ),
+                                if (dish.category.isNotEmpty) ...[
+                                  const SizedBox(height: 6),
+                                  Container(
+                                    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                                    decoration: BoxDecoration(
+                                      color: _categoryColor(dish.category).withValues(alpha: 0.12),
+                                      borderRadius: BorderRadius.circular(20),
+                                      border: Border.all(color: _categoryColor(dish.category).withValues(alpha: 0.3)),
+                                    ),
+                                    child: Text(
+                                      dish.category,
+                                      style: TextStyle(
+                                        fontSize: 11,
+                                        color: _categoryColor(dish.category),
+                                        fontWeight: FontWeight.w600,
+                                      ),
+                                    ),
+                                  ),
+                                ],
                               ],
                             ),
                           ],

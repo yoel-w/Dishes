@@ -47,6 +47,21 @@ class _ResultsScreenState extends State<ResultsScreen> {
     }
   }
 
+  Color _categoryColor(String category) {
+    switch (category) {
+      case 'Breakfast':
+        return const Color(0xFFF57C00);
+      case 'Lunch/Dinner':
+        return const Color(0xFF1565C0);
+      case 'Snack':
+        return const Color(0xFF2E7D32);
+      case 'Dessert':
+        return const Color(0xFF6A1B9A);
+      default:
+        return const Color(0xFF546E7A);
+    }
+  }
+
   Color _spiceColor(String spice) {
     switch (spice) {
       case 'hot':
@@ -154,6 +169,8 @@ class _ResultsScreenState extends State<ResultsScreen> {
                                         spacing: 6,
                                         runSpacing: 6,
                                         children: [
+                                          if (dish.category.isNotEmpty)
+                                            _Chip(label: dish.category, color: _categoryColor(dish.category)),
                                           _Chip(label: dish.spice, color: _spiceColor(dish.spice)),
                                           _Chip(label: dish.difficulty, color: scheme.textMedium),
                                           _Chip(label: dish.prepTime, color: const Color(0xFF0277BD)),

@@ -50,6 +50,17 @@ class ApiService {
     throw Exception('Failed to search by region');
   }
 
+  static Future<List<Dish>> getAllDishes() async {
+    final response = await http.get(Uri.parse('$_base/dishes'));
+    if (response.statusCode == 200) {
+      final List<dynamic> data = jsonDecode(response.body);
+      final dishes = data.map((d) => Dish.fromJson(d)).toList();
+      dishes.sort((a, b) => a.name.compareTo(b.name));
+      return dishes;
+    }
+    throw Exception('Failed to get all dishes');
+  }
+
   static Future<Dish> getRandomDish() async {
     final response = await http.get(Uri.parse('$_base/dishes/random'));
     if (response.statusCode == 200) {
