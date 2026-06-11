@@ -69,7 +69,7 @@ class MenuDrawer extends StatelessWidget {
                     child: Divider(height: 24, color: scheme.divider),
                   ),
                   _MenuItem(
-                    emoji: '🔤',
+                    emoji: '🔍',
                     label: 'Browse All Dishes',
                     subtitle: 'Search dishes by name',
                     scheme: scheme,

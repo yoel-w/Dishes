@@ -264,56 +264,64 @@ class DishDetailScreen extends StatelessWidget {
                   const SizedBox(height: 12),
                   ...dish.instructions.asMap().entries.map((entry) {
                     final step = entry.key + 1;
-                    return Padding(
-                      padding: const EdgeInsets.only(bottom: 12),
-                      child: Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Container(
-                            width: 32,
-                            height: 32,
-                            decoration: BoxDecoration(
-                              color: scheme.primary,
-                              shape: BoxShape.circle,
-                            ),
-                            child: Center(
-                              child: Text(
-                                '$step',
-                                style: const TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.w700,
-                                  fontSize: 14,
+                    return ListenableBuilder(
+                      listenable: ThemeService.instance,
+                      builder: (context, _) {
+                        final text = ThemeService.instance.useImperial
+                            ? MeasurementConverter.toImperial(entry.value)
+                            : entry.value;
+                        return Padding(
+                          padding: const EdgeInsets.only(bottom: 12),
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Container(
+                                width: 32,
+                                height: 32,
+                                decoration: BoxDecoration(
+                                  color: scheme.primary,
+                                  shape: BoxShape.circle,
                                 ),
-                              ),
-                            ),
-                          ),
-                          const SizedBox(width: 12),
-                          Expanded(
-                            child: Container(
-                              padding: const EdgeInsets.all(14),
-                              decoration: BoxDecoration(
-                                color: scheme.cardColor,
-                                borderRadius: BorderRadius.circular(12),
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: Colors.black.withValues(alpha: 0.05),
-                                    blurRadius: 6,
-                                    offset: const Offset(0, 2),
+                                child: Center(
+                                  child: Text(
+                                    '$step',
+                                    style: const TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.w700,
+                                      fontSize: 14,
+                                    ),
                                   ),
-                                ],
-                              ),
-                              child: Text(
-                                entry.value,
-                                style: TextStyle(
-                                  fontSize: 14,
-                                  color: scheme.textDark,
-                                  height: 1.45,
                                 ),
                               ),
-                            ),
+                              const SizedBox(width: 12),
+                              Expanded(
+                                child: Container(
+                                  padding: const EdgeInsets.all(14),
+                                  decoration: BoxDecoration(
+                                    color: scheme.cardColor,
+                                    borderRadius: BorderRadius.circular(12),
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: Colors.black.withValues(alpha: 0.05),
+                                        blurRadius: 6,
+                                        offset: const Offset(0, 2),
+                                      ),
+                                    ],
+                                  ),
+                                  child: Text(
+                                    text,
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      color: scheme.textDark,
+                                      height: 1.45,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
-                        ],
-                      ),
+                        );
+                      },
                     );
                   }),
 

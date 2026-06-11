@@ -1,13 +1,26 @@
 class MeasurementConverter {
   static String toImperial(String text) {
-    return text.replaceAllMapped(
-      RegExp(r'(\d+(?:\.\d+)?|\d+/\d+)\s*(g|kg|ml|l)\b', caseSensitive: false),
+    // Convert mass, volume, and length units.
+    String result = text.replaceAllMapped(
+      RegExp(r'(\d+(?:\.\d+)?|\d+/\d+)\s*(g|kg|ml|l|cm)\b', caseSensitive: false),
       (m) {
         final amount = _parse(m.group(1)!);
         if (amount == null) return m.group(0)!;
         return _convert(amount, m.group(2)!.toLowerCase());
       },
     );
+    // Convert Celsius temperatures to Fahrenheit, rounded to nearest 5°F.
+    result = result.replaceAllMapped(
+      RegExp(r'(\d+(?:\.\d+)?)\s*°\s*C\b'),
+      (m) {
+        final c = double.tryParse(m.group(1)!);
+        if (c == null) return m.group(0)!;
+        final f = c * 9 / 5 + 32;
+        final rounded = (f / 5).round() * 5;
+        return '$rounded°F';
+      },
+    );
+    return result;
   }
 
   static double? _parse(String s) {
@@ -36,6 +49,10 @@ class MeasurementConverter {
       case 'l':
         if (amount >= 1) return '${_fmt(amount * 1.05669)} qt';
         return '${_fmtCups(amount * 4.22675)} cups';
+      case 'cm':
+        final inches = amount * 0.393701;
+        final label = _fmtCups(inches);
+        return '$label ${inches >= 1.05 ? "inches" : "inch"}';
       default:
         return '${_fmt(amount)} $unit';
     }
