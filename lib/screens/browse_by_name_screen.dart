@@ -151,8 +151,7 @@ class _BrowseByNameScreenState extends State<BrowseByNameScreen> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            const Text('😕',
-                                style: TextStyle(fontSize: 48)),
+                            Icon(Icons.sentiment_dissatisfied_rounded, size: 48, color: scheme.textMedium),
                             const SizedBox(height: 12),
                             Text(
                               'Could not reach the server.\nIs it running?',
@@ -168,8 +167,7 @@ class _BrowseByNameScreenState extends State<BrowseByNameScreen> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                const Text('🔍',
-                                    style: TextStyle(fontSize: 48)),
+                                Icon(Icons.search_rounded, size: 48, color: scheme.textMedium),
                                 const SizedBox(height: 12),
                                 Text(
                                   'No dishes matched "${_search.text}"',
@@ -241,7 +239,7 @@ class _DishTile extends StatelessWidget {
       ),
       contentPadding:
           const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-      leading: Text(dish.emoji, style: const TextStyle(fontSize: 32)),
+      leading: Icon(Icons.restaurant_rounded, size: 32, color: scheme.primaryDark),
       title: Text(
         dish.name,
         style: TextStyle(

@@ -76,7 +76,7 @@ class DishDetailScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     const SizedBox(height: 40),
-                    Text(dish.emoji, style: const TextStyle(fontSize: 72)),
+                    const Icon(Icons.restaurant_menu_rounded, size: 72, color: Colors.white),
                     const SizedBox(height: 8),
                     Text(
                       dish.name,

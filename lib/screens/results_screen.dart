@@ -92,7 +92,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        const Text('😕', style: TextStyle(fontSize: 48)),
+                        Icon(Icons.sentiment_dissatisfied_rounded, size: 48, color: scheme.textMedium),
                         const SizedBox(height: 12),
                         Text(
                           'No dishes found.\nTry different ingredients!',
@@ -132,7 +132,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                             child: Row(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text(dish.emoji, style: const TextStyle(fontSize: 40)),
+                                Icon(Icons.restaurant_rounded, size: 40, color: scheme.primaryDark),
                                 const SizedBox(width: 14),
                                 Expanded(
                                   child: Column(
@@ -230,7 +230,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                         : const Row(
                             mainAxisSize: MainAxisSize.min,
                             children: [
-                              Text('🎲', style: TextStyle(fontSize: 20)),
+                              Icon(Icons.casino_rounded, color: Colors.white, size: 20),
                               SizedBox(width: 8),
                               Text(
                                 'Respin',

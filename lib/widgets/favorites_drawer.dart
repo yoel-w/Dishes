@@ -49,10 +49,10 @@ class FavoritesDrawer extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          const Text('🤍', style: TextStyle(fontSize: 52)),
+                          Icon(Icons.favorite_border_rounded, size: 52, color: scheme.primaryDark),
                           const SizedBox(height: 14),
                           Text(
-                            'No saved dishes yet.\nTap ♡ on any dish to save it.',
+                            'No saved dishes yet.\nTap the heart on any dish to save it.',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontSize: 15,
@@ -97,7 +97,7 @@ class _FavoritesTile extends StatelessWidget {
         MaterialPageRoute(builder: (_) => DishDetailScreen(dish: dish)),
       ),
       contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 6),
-      leading: Text(dish.emoji, style: const TextStyle(fontSize: 36)),
+      leading: Icon(Icons.restaurant_rounded, size: 36, color: scheme.primaryDark),
       title: Text(
         dish.name,
         style: TextStyle(

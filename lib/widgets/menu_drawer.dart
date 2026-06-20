@@ -22,7 +22,7 @@ class MenuDrawer extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(20, 20, 20, 12),
               child: Row(
                 children: [
-                  const Text('🍽️', style: TextStyle(fontSize: 26)),
+                  Icon(Icons.restaurant_menu_rounded, size: 26, color: scheme.primaryDark),
                   const SizedBox(width: 10),
                   Text(
                     'Menu',
@@ -46,7 +46,7 @@ class MenuDrawer extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 8),
                 children: [
                   _MenuItem(
-                    emoji: '⚙️',
+                    icon: Icons.settings_rounded,
                     label: 'Settings',
                     subtitle: 'Preferences and options',
                     scheme: scheme,
@@ -69,7 +69,7 @@ class MenuDrawer extends StatelessWidget {
                     child: Divider(height: 24, color: scheme.divider),
                   ),
                   _MenuItem(
-                    emoji: '🔍',
+                    icon: Icons.search_rounded,
                     label: 'Browse All Dishes',
                     subtitle: 'Search dishes by name',
                     scheme: scheme,
@@ -89,7 +89,7 @@ class MenuDrawer extends StatelessWidget {
                     child: Divider(height: 24, color: scheme.divider),
                   ),
                   _MenuItem(
-                    emoji: 'ℹ️',
+                    icon: Icons.info_rounded,
                     label: 'About',
                     subtitle: 'Dish Discovery v1.0',
                     scheme: scheme,
@@ -99,8 +99,7 @@ class MenuDrawer extends StatelessWidget {
                         context: context,
                         applicationName: 'Dish Discovery',
                         applicationVersion: '1.0.0',
-                        applicationIcon: const Text('🍽️',
-                            style: TextStyle(fontSize: 36)),
+                        applicationIcon: const Icon(Icons.restaurant_menu_rounded, size: 36),
                         children: const [
                           Text(
                             'Explore dishes from around the world — by ingredients, mood, or pure chance.',
@@ -127,16 +126,18 @@ class MenuDrawer extends StatelessWidget {
   }
 }
 
+typedef _RegionData = ({String? flag, IconData? icon, String label, String region});
+
 class _RegionsExpansion extends StatelessWidget {
-  static const _regions = [
-    ('🇺🇸', 'North America', 'northamerica'),
-    ('🌎', 'South America', 'southamerica'),
-    ('🏝️', 'Caribbean', 'caribbean'),
-    ('🇪🇺', 'Europe', 'europe'),
-    ('🌍', 'Africa', 'africa'),
-    ('🕌', 'Middle East', 'middleeast'),
-    ('🌏', 'Asia', 'asia'),
-    ('🦘', 'Oceania', 'oceania'),
+  static const List<_RegionData> _regions = [
+    (flag: '🇺🇸', icon: null, label: 'North America', region: 'northamerica'),
+    (flag: '🌎', icon: null, label: 'South America', region: 'southamerica'),
+    (flag: '🏝️', icon: null, label: 'Caribbean', region: 'caribbean'),
+    (flag: '🇪🇺', icon: null, label: 'Europe', region: 'europe'),
+    (flag: '🌍', icon: null, label: 'Africa', region: 'africa'),
+    (flag: '🕌', icon: null, label: 'Middle East', region: 'middleeast'),
+    (flag: '🌏', icon: null, label: 'Asia', region: 'asia'),
+    (flag: '🦘', icon: null, label: 'Oceania', region: 'oceania'),
   ];
 
   final AppColorScheme scheme;
@@ -150,7 +151,7 @@ class _RegionsExpansion extends StatelessWidget {
       ),
       child: ExpansionTile(
         tilePadding: const EdgeInsets.symmetric(horizontal: 20),
-        leading: const Text('🌐', style: TextStyle(fontSize: 28)),
+        leading: Icon(Icons.public, size: 28, color: scheme.textDark),
         title: Text(
           'Browse by Region',
           style: TextStyle(
@@ -165,7 +166,7 @@ class _RegionsExpansion extends StatelessWidget {
         ),
         trailing: Icon(Icons.expand_more_rounded, color: scheme.textLight),
         children: _regions
-            .map((r) => _RegionTile(emoji: r.$1, label: r.$2, region: r.$3, scheme: scheme))
+            .map((r) => _RegionTile(flag: r.flag, icon: r.icon, label: r.label, region: r.region, scheme: scheme))
             .toList(),
       ),
     );
@@ -173,13 +174,15 @@ class _RegionsExpansion extends StatelessWidget {
 }
 
 class _RegionTile extends StatefulWidget {
-  final String emoji;
+  final String? flag;
+  final IconData? icon;
   final String label;
   final String region;
   final AppColorScheme scheme;
 
   const _RegionTile({
-    required this.emoji,
+    this.flag,
+    this.icon,
     required this.label,
     required this.region,
     required this.scheme,
@@ -203,7 +206,7 @@ class _RegionTileState extends State<_RegionTile> {
         MaterialPageRoute(
           builder: (_) => ResultsScreen(
             dishes: dishes,
-            title: '${widget.emoji} ${widget.label}',
+            title: widget.flag != null ? '${widget.flag} ${widget.label}' : widget.label,
           ),
         ),
       );
@@ -225,7 +228,9 @@ class _RegionTileState extends State<_RegionTile> {
       data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
       child: ExpansionTile(
         tilePadding: const EdgeInsets.symmetric(horizontal: 32, vertical: 0),
-        leading: Text(widget.emoji, style: const TextStyle(fontSize: 22)),
+        leading: widget.flag != null
+            ? Text(widget.flag!, style: const TextStyle(fontSize: 22))
+            : Icon(widget.icon, size: 22, color: scheme.textMedium),
         title: Text(
           widget.label,
           style: TextStyle(
@@ -265,7 +270,7 @@ class _RegionTileState extends State<_RegionTile> {
                 context,
                 MaterialPageRoute(
                   builder: (_) => CountryListScreen(
-                    emoji: widget.emoji,
+                    flag: widget.flag,
                     label: widget.label,
                     region: widget.region,
                   ),
@@ -289,14 +294,14 @@ class _RegionTileState extends State<_RegionTile> {
 }
 
 class _MenuItem extends StatelessWidget {
-  final String emoji;
+  final IconData icon;
   final String label;
   final String subtitle;
   final VoidCallback onTap;
   final AppColorScheme scheme;
 
   const _MenuItem({
-    required this.emoji,
+    required this.icon,
     required this.label,
     required this.subtitle,
     required this.onTap,
@@ -309,7 +314,7 @@ class _MenuItem extends StatelessWidget {
       onTap: onTap,
       contentPadding:
           const EdgeInsets.symmetric(horizontal: 20, vertical: 4),
-      leading: Text(emoji, style: const TextStyle(fontSize: 28)),
+      leading: Icon(icon, size: 28, color: scheme.textDark),
       title: Text(
         label,
         style: TextStyle(

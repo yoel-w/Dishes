@@ -299,7 +299,7 @@ class _HomePreview extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 10),
-            const Text('🍽️', style: TextStyle(fontSize: 26)),
+            Icon(Icons.restaurant_menu_rounded, size: 26, color: scheme.primaryDark),
             const SizedBox(height: 6),
             Text(
               'Discover New Dishes',
@@ -321,7 +321,7 @@ class _HomePreview extends StatelessWidget {
             const SizedBox(height: 5),
             _MiniButton(label: 'Mood', icon: Icons.mood_rounded, color: scheme.primaryLight),
             const SizedBox(height: 5),
-            _MiniButton(label: '🎲  Surprise Me!', color: scheme.accent),
+            _MiniButton(label: 'Surprise Me!', icon: Icons.casino_rounded, color: scheme.accent),
             const Spacer(),
             Text(
               'World cuisines at your fingertips',

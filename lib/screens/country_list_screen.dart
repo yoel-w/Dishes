@@ -5,13 +5,13 @@ import '../theme/app_color_scheme.dart';
 import 'results_screen.dart';
 
 class CountryListScreen extends StatefulWidget {
-  final String emoji;
+  final String? flag;
   final String label;
   final String region;
 
   const CountryListScreen({
     super.key,
-    required this.emoji,
+    this.flag,
     required this.label,
     required this.region,
   });
@@ -73,7 +73,7 @@ class _CountryListScreenState extends State<CountryListScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              '${widget.emoji} ${widget.label}',
+              widget.flag != null ? '${widget.flag} ${widget.label}' : widget.label,
               style: TextStyle(
                 fontWeight: FontWeight.w800,
                 fontSize: 20,
@@ -97,7 +97,7 @@ class _CountryListScreenState extends State<CountryListScreen> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Text('😕', style: TextStyle(fontSize: 48)),
+            Icon(Icons.sentiment_dissatisfied_rounded, size: 48, color: scheme.textMedium),
             const SizedBox(height: 12),
             Text(_error!, style: TextStyle(color: scheme.textMedium)),
             const SizedBox(height: 16),

@@ -82,7 +82,7 @@ class Dish {
       country: json['country'] ?? '',
       flag: json['flag'] ?? '',
       region: json['region'] ?? '',
-      emoji: json['emoji'] ?? '🍽️',
+      emoji: json['emoji'] ?? '',
       description: json['description'] ?? '',
       ingredients: List<String>.from(json['ingredients'] ?? []),
       ingredientsFull: List<String>.from(json['ingredientsFull'] ?? json['ingredients'] ?? []),

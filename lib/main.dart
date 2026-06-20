@@ -75,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
         MaterialPageRoute(
           builder: (_) => ResultsScreen(
             dishes: [dish],
-            title: '🎲 Surprise!',
+            title: 'Surprise!',
             allowRespin: true,
           ),
         ),
@@ -159,9 +159,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
               const SizedBox(height: 16),
-              const Text(
-                '🍽️',
-                style: TextStyle(fontSize: 64),
+              Icon(
+                Icons.restaurant_menu_rounded,
+                size: 64,
+                color: scheme.primaryDark,
               ),
               const SizedBox(height: 16),
               Text(
@@ -206,9 +207,9 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               const SizedBox(height: 18),
               _HomeButton(
-                label: _surpriseLoading ? 'Finding...' : '🎲  Surprise Me!',
+                label: _surpriseLoading ? 'Finding...' : 'Surprise Me!',
                 subtitle: 'Random dish from anywhere',
-                icon: null,
+                icon: Icons.casino_rounded,
                 color: scheme.accent,
                 onTap: _surpriseLoading ? () {} : _onSurpriseMe,
               ),

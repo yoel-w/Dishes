@@ -4,13 +4,13 @@ import '../theme/app_color_scheme.dart';
 import 'results_screen.dart';
 
 class _Option {
-  final String emoji;
+  final IconData icon;
   final String label;
   final dynamic value;
   final Color color;
 
   const _Option({
-    required this.emoji,
+    required this.icon,
     required this.label,
     required this.value,
     required this.color,
@@ -18,13 +18,13 @@ class _Option {
 }
 
 class _Question {
-  final String emoji;
+  final IconData icon;
   final String text;
   final String key;
   final List<_Option> options;
 
   const _Question({
-    required this.emoji,
+    required this.icon,
     required this.text,
     required this.key,
     required this.options,
@@ -33,23 +33,23 @@ class _Question {
 
 const _questions = [
   _Question(
-    emoji: '🌶️',
+    icon: Icons.local_fire_department_rounded,
     text: 'How spicy do you want it?',
     key: 'spicy',
     options: [
-      _Option(emoji: '😊', label: 'Mild', value: 'mild', color: Color(0xFF2E7D32)),
-      _Option(emoji: '🌶️', label: 'Medium', value: 'medium', color: Color(0xFFFF6D00)),
-      _Option(emoji: '🔥', label: 'Hot', value: 'hot', color: Color(0xFFBF360C)),
+      _Option(icon: Icons.sentiment_satisfied_rounded, label: 'Mild', value: 'mild', color: Color(0xFF2E7D32)),
+      _Option(icon: Icons.local_fire_department_rounded, label: 'Medium', value: 'medium', color: Color(0xFFFF6D00)),
+      _Option(icon: Icons.whatshot_rounded, label: 'Hot', value: 'hot', color: Color(0xFFBF360C)),
     ],
   ),
   _Question(
-    emoji: '🍳',
+    icon: Icons.restaurant_rounded,
     text: 'How complex a dish?',
     key: 'difficulty',
     options: [
-      _Option(emoji: '😌', label: 'Easy', value: 'easy', color: Color(0xFF0277BD)),
-      _Option(emoji: '🧑‍🍳', label: 'Medium', value: 'medium', color: Color(0xFFFF6D00)),
-      _Option(emoji: '👨‍🎓', label: 'Hard', value: 'hard', color: Color(0xFF6A1B9A)),
+      _Option(icon: Icons.sentiment_satisfied_alt_rounded, label: 'Easy', value: 'easy', color: Color(0xFF0277BD)),
+      _Option(icon: Icons.restaurant_rounded, label: 'Medium', value: 'medium', color: Color(0xFFFF6D00)),
+      _Option(icon: Icons.school_rounded, label: 'Hard', value: 'hard', color: Color(0xFF6A1B9A)),
     ],
   ),
 ];
@@ -106,7 +106,7 @@ class _FeelingScreenState extends State<FeelingScreen>
         MaterialPageRoute(
           builder: (_) => ResultsScreen(
             dishes: dishes,
-            title: '😋 Your Matches',
+            title: 'Your Matches',
           ),
         ),
       );
@@ -176,7 +176,7 @@ class _FeelingScreenState extends State<FeelingScreen>
                   child: Column(
                     children: [
                       const SizedBox(height: 60),
-                      Text(q.emoji, style: const TextStyle(fontSize: 80)),
+                      Icon(q.icon, size: 80, color: scheme.primaryDark),
                       const SizedBox(height: 32),
                       Text(
                         q.text,
@@ -235,7 +235,7 @@ class _OptionButton extends StatelessWidget {
         child: wide
             ? Row(
                 children: [
-                  Text(option.emoji, style: const TextStyle(fontSize: 28)),
+                  Icon(option.icon, size: 28, color: Colors.white),
                   const SizedBox(width: 16),
                   Text(
                     option.label,
@@ -249,7 +249,7 @@ class _OptionButton extends StatelessWidget {
               )
             : Column(
                 children: [
-                  Text(option.emoji, style: const TextStyle(fontSize: 32)),
+                  Icon(option.icon, size: 32, color: Colors.white),
                   const SizedBox(height: 8),
                   Text(
                     option.label,
